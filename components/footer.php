@@ -16,7 +16,7 @@
         <!-- Column 1: Brand -->
         <div class="col-span-2 md:col-span-1">
             <a href="/" class="block mb-5">
-                <img src="./assets/images/logo.png" alt="MJRS Associates" class="w-36">
+                <img src="./assets/images/logo_white.png" alt="MJRS Associates" class="w-36">
             </a>
             <p class="text-gray-400 text-sm leading-relaxed">
                 MJRS Associates is a financial engineering and advisory firm redefining how Canadian businesses
@@ -25,26 +25,37 @@
         </div>
 
         <!-- Column 2: Quick Links -->
+        <!-- Column 2: Quick Links -->
         <div>
             <h4 class="text-white font-semibold mb-4 text-lg">Services</h4>
             <ul class="space-y-2 text-sm">
-                <li><a href="#services" class="hover:text-brand-gold transition">Corporate Tax Architecture</a>
-                </li>
+                <li><a href="./accounting" class="hover:text-brand-gold transition">
+                        Accounting Solutions</a></li>
+                <li><a href="./bookkeeping" class="hover:text-brand-gold transition">Strategic Bookkeeping
+                        Management</a></li>
+                <li><a href="./tax-personal" class="hover:text-brand-gold transition">Personal Tax Structuring </a></li>
+                <li><a href="./tax-corporate" class="hover:text-brand-gold transition">Corporate Tax Planning </a></li>
+                <li><a href="./advisory" class="hover:text-brand-gold transition">Business Advisory & Growth
+                        Consulting</a></li>
+                <li><a href="./payroll" class="hover:text-brand-gold transition">Payroll Administration & Workforce
+                        Management</a></li>
+                <!-- <li><a href="#services" class="hover:text-brand-gold transition">Corporate Tax Architecture</a></li>
                 <li><a href="#services" class="hover:text-brand-gold transition">Business Incorporation</a></li>
                 <li><a href="#services" class="hover:text-brand-gold transition">Management Accounting</a></li>
                 <li><a href="#services" class="hover:text-brand-gold transition">Cross-Border Taxation</a></li>
-                <li><a href="#services" class="hover:text-brand-gold transition">Advisory & Forecasting</a></li>
+                <li><a href="#services" class="hover:text-brand-gold transition">Advisory & Forecasting</a></li> -->
             </ul>
         </div>
+
 
         <!-- Column 3: Company -->
         <div>
             <h4 class="text-white font-semibold mb-4 text-lg">Company</h4>
             <ul class="space-y-2 text-sm">
-                <li><a href="#about" class="hover:text-brand-gold transition">About MJRS</a></li>
-                <li><a href="#cases" class="hover:text-brand-gold transition">Completed Cases</a></li>
-                <li><a href="#faq" class="hover:text-brand-gold transition">FAQs</a></li>
-                <li><a href="#contact" class="hover:text-brand-gold transition">Contact</a></li>
+                <li><a href="./about" class="hover:text-brand-gold transition">About MJRS</a></li>
+                <li><a href="./incorporation" class="hover:text-brand-gold transition">Open Incorporation</a></li>
+                <li><a href="./index#faq" class="hover:text-brand-gold transition">FAQs</a></li>
+                <li><a href="./contactus" class="hover:text-brand-gold transition">Contact</a></li>
             </ul>
         </div>
 
@@ -55,7 +66,9 @@
                 <li class="text-gray-400">Toronto, Ontario, Canada</li>
                 <li><a href="mailto:info@mjrsassociates.ca"
                         class="text-brand-gold hover:underline">info@mjrsassociates.ca</a></li>
-                <li><a href="tel:+14165551234" class="hover:text-brand-gold transition">+1 (416) 555-1234</a>
+                <li><a href="tel:+16478880883" class="hover:text-brand-gold transition">+1 (647) 888-0883</a>
+                </li>
+                <li><a href="tel:+16474648624" class="hover:text-brand-gold transition">+1 (647) 464-8624</a>
                 </li>
             </ul>
             <div class="flex items-center gap-4 mt-5">

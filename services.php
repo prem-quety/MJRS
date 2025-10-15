@@ -260,11 +260,11 @@ $page_jsonld = [
                 <p class="mt-4 text-gray-300 text-lg font-light">Let’s architect a system that keeps your decisions
                     fast, defensible, and compliant.</p>
                 <div class="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
-                    <a href="/contactus.php#contact-form"
+                    <a href="./contactus.php#contact-form"
                         class="inline-flex items-center justify-center px-8 py-3 rounded-md bg-brand-red text-white font-semibold hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-red-300">
                         Start a Consultation
                     </a>
-                    <a href="/contactus.php"
+                    <a href="./contactus.php"
                         class="inline-flex items-center justify-center px-8 py-3 rounded-md border border-white/20 text-white/90 hover:bg-white/10 focus:outline-none">
                         Contact Us
                     </a>

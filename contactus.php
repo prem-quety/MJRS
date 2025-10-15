@@ -155,7 +155,8 @@ $page_jsonld = [
                         <i data-lucide="mail-open" class="w-6 h-6 text-brand-red"></i> Send Us a Message
                     </h3>
 
-                    <form action="#" method="POST" class="space-y-6">
+                    <form id="contactForm" action="contact-form-main.php" method="POST" class="space-y-6">
+
                         <div>
                             <label for="name" class="block text-sm font-semibold text-brand-black mb-2">Full
                                 Name</label>
@@ -214,11 +215,23 @@ $page_jsonld = [
         </div>
     </section>
 
-    <!-- Initialize Lucide Icons -->
     <script>
-        lucide.createIcons();
-    </script>
+        document.querySelector('#contactForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const form = e.target;
+            const formData = new FormData(form);
 
+            const response = await fetch(form.action, { method: 'POST', body: formData });
+            const result = await response.json();
+
+            if (result.success) {
+                alert(result.success);
+                form.reset();
+            } else {
+                alert(result.error || 'Something went wrong. Please try again.');
+            }
+        });
+    </script>
 
 
 

@@ -63,3 +63,44 @@
         </div>
     </div>
 </section>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const form = document.querySelector('form');
+        const btn = form.querySelector('button[type="submit"]');
+        const msg = document.createElement('p');
+        msg.className = 'text-center text-sm mt-4';
+        form.appendChild(msg);
+
+        form.addEventListener('submit', async function (e) {
+            e.preventDefault();
+            msg.textContent = '';
+            btn.disabled = true;
+            btn.textContent = 'Sending...';
+
+            try {
+                const formData = new FormData(form);
+                const response = await fetch('contact-form-handler', {
+                    method: 'POST',
+                    body: formData,
+                    headers: { 'X-Requested-With': 'XMLHttpRequest' }
+                });
+                const result = await response.json();
+
+                if (response.ok && result.success) {
+                    form.reset();
+                    msg.textContent = result.success;
+                    msg.className = 'text-center text-green-600 font-medium mt-4';
+                } else {
+                    msg.textContent = result.error || 'Something went wrong. Please try again.';
+                    msg.className = 'text-center text-red-600 font-medium mt-4';
+                }
+            } catch (err) {
+                msg.textContent = 'Network error. Please check your connection.';
+                msg.className = 'text-center text-red-600 font-medium mt-4';
+            } finally {
+                btn.disabled = false;
+                btn.textContent = 'Send Message';
+            }
+        });
+    });
+</script>

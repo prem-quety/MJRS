@@ -3,11 +3,11 @@
     <div class="max-w-7xl mx-auto flex justify-between items-center px-6 py-2
       bg-white/60 backdrop-blur-md border-b border-gray-200/60">
         <div class="flex gap-6 text-xs md:text-sm text-brand-black/70">
-            <a href="tel:+19054603756" class="hover:text-brand-red transition">+1 (905) 460-3756</a>
+            <a href="tel:+16474648624" class="hover:text-brand-red transition">+1 (647) 464-8624</a>
             <a href="tel:+16478880883" class="hover:text-brand-red transition">+1 (647) 888-0883</a>
             <a href="mailto:info@mjrsassociates.ca" class="hover:text-brand-red transition">info@mjrsassociates.ca</a>
         </div>
-        <a href="./open-new-incorporation" class="hidden md:inline-flex items-center rounded-md bg-brand-red px-4 py-1.5 text-xs md:text-sm font-semibold text-white
+        <a href="./incorporation" class="hidden md:inline-flex items-center rounded-md bg-brand-red px-4 py-1.5 text-xs md:text-sm font-semibold text-white
         hover:bg-red-600 transition focus:outline-none focus:ring-2 focus:ring-red-300">
             Open Incorporation
         </a>
@@ -23,11 +23,12 @@
         </a>
         <nav class="hidden md:flex items-center gap-10 text-sm font-medium uppercase tracking-wide text-brand-black/90">
             <a href="./" class="hover:text-brand-red transition">Home</a>
-            <a href="#services" class="hover:text-brand-red transition">Services</a>
-            <a href="#taxes" class="hover:text-brand-red transition">Personal Taxes</a>
-            <a href="#incorporation" class="hover:text-brand-red transition">Incorporation</a>
-            <a href="#about" class="hover:text-brand-red transition">About</a>
-            <a href="#contact" class="hover:text-brand-red transition">Contact</a>
+            <a href="./accounting" class="hover:text-brand-red transition">Accounting</a>
+            <a href="./tax-corporate" class="hover:text-brand-red transition">Corporate Tax</a>
+            <a href="./advisory" class="hover:text-brand-red transition">Advisory</a>
+            <a href="./services" class="hover:text-brand-red transition">Services</a>
+            <a href="./about" class="hover:text-brand-red transition">About Us</a>
+            <a href="./contactus" class="hover:text-brand-red transition">Contact</a>
         </nav>
         <button id="menu-btn"
             class="md:hidden inline-flex items-center justify-center p-2 rounded-md text-brand-black/80">
@@ -42,14 +43,16 @@
         <div
             class="bg-white/90 backdrop-blur-md border border-gray-200 rounded-xl p-4 flex flex-col gap-3 text-sm font-medium shadow-lg">
             <a href="./" class="py-2 hover:text-brand-red">Home</a>
-            <a href="#services" class="py-2 hover:text-brand-red">Services</a>
-            <a href="#taxes" class="py-2 hover:text-brand-red">Personal Taxes</a>
-            <a href="#incorporation" class="py-2 hover:text-brand-red">Incorporation</a>
-            <a href="#about" class="py-2 hover:text-brand-red">About</a>
-            <a href="#contact" class="py-2 hover:text-brand-red">Contact</a>
+            <a href="./accounting" class="py-2 hover:text-brand-red">Accounting</a>
+            <a href="./tax-corporate" class="py-2 hover:text-brand-red">Corporate Tax</a>
+            <a href="./advisory" class="py-2 hover:text-brand-red">Advisory</a>
+            <a href="./open-incorporation" class="py-2 hover:text-brand-red">Incorporation</a>
+            <a href="./contactus" class="py-2 hover:text-brand-red">Contact</a>
         </div>
     </div>
 </header>
+
+
 
 <script>
     const menuBtn = document.getElementById('menu-btn');

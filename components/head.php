@@ -61,7 +61,14 @@
             }
         }
     </script>
+    <!-- Lucide Icons -->
     <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            lucide.createIcons();
+        });
+    </script>
+
     <!-- Global Styles -->
     <style>
         html {
@@ -89,14 +96,14 @@
     <!-- Google Tag Manager (placeholder) -->
     <?php if (!empty($GTM_ID)): ?>
         <script>
-                (function (w, d, s, l, i) {
-                    w[l] = w[l] || []; w[l].push({
-                        'gtm.start':
-                            new Date().getTime(), event: 'gtm.js'
-                    }); var f = d.getElementsByTagName(s)[0],
-                        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-                            'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-                })(window, document, 'script', 'dataLayer', '<?= $GTM_ID ?>');
+            (function (w, d, s, l, i) {
+                w[l] = w[l] || []; w[l].push({
+                    'gtm.start':
+                        new Date().getTime(), event: 'gtm.js'
+                }); var f = d.getElementsByTagName(s)[0],
+                    j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                        'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+            })(window, document, 'script', 'dataLayer', '<?= $GTM_ID ?>');
         </script>
     <?php endif; ?>
     <!-- Page-Specific JSON-LD -->
@@ -104,13 +111,13 @@
         <?php if (is_array($page_jsonld)): ?>
             <?php foreach ($page_jsonld as $json): ?>
                 <script type="application/ld+json">
-                                                                                <?= is_array($json) ? json_encode($json, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT) : $json ?>
-                                                                            </script>
+                                                                                            <?= is_array($json) ? json_encode($json, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT) : $json ?>
+                                                                                        </script>
             <?php endforeach; ?>
         <?php else: ?>
             <script type="application/ld+json">
-                                                        <?= is_array($page_jsonld) ? json_encode($page_jsonld, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT) : $page_jsonld ?>
-                                                    </script>
+                                                                <?= is_array($page_jsonld) ? json_encode($page_jsonld, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT) : $page_jsonld ?>
+                                                            </script>
         <?php endif; ?>
     <?php endif; ?>
 </head>

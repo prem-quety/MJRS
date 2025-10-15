@@ -43,12 +43,22 @@ $page_jsonld = [
     <!-- HERO -->
     <main class="pt-[50px]">
         <section class="relative flex items-center justify-center min-h-[70vh] bg-white overflow-hidden">
+            <!-- Background Video -->
+            <video autoplay muted loop playsinline class="absolute inset-0 w-full h-full object-cover">
+                <source src="./assets/videos/video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+
+            <!-- Overlay for readability -->
+            <!-- <div class="absolute inset-0 bg-white/70"></div> -->
+
             <!-- Background Grid -->
-            <div class="absolute inset-0 opacity-40 pointer-events-none" style="background-image:
-        linear-gradient(to right, rgba(229,229,229,0.5) 1px, transparent 1px),
-        linear-gradient(to bottom, rgba(229,229,229,0.5) 1px, transparent 1px);
-        background-size: 40px 40px;">
-            </div>
+            <!-- <div class="absolute inset-0 opacity-40 pointer-events-none" style="background-image:
+    linear-gradient(to right, rgba(229,229,229,0.5) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(229,229,229,0.5) 1px, transparent 1px);
+    background-size: 40px 40px;">
+            </div> -->
+
             <!-- Glow Shapes -->
             <div class="absolute -top-32 -left-32 w-96 h-96 bg-brand-red/10 rounded-full blur-[140px]"></div>
             <div class="absolute -bottom-40 -right-40 w-[28rem] h-[28rem] bg-brand-black/5 rounded-full blur-[160px]">
@@ -57,7 +67,7 @@ $page_jsonld = [
             <!-- Content -->
             <div class="relative z-10 max-w-5xl px-6 text-center">
                 <span class="fade-up inline-block mb-4 px-4 py-1 rounded-full text-xs font-medium tracking-wide
-          bg-brand-red/10 text-brand-red border border-brand-red/20" style="animation-delay: 0.2s">
+      bg-brand-red/10 text-brand-red border border-brand-red/20" style="animation-delay: 0.2s">
                     Trusted Corporate & Tax Advisors
                 </span>
                 <h1 class="fade-up font-heading text-5xl md:text-7xl font-extrabold tracking-tight leading-[1.05] text-brand-black"
@@ -65,23 +75,24 @@ $page_jsonld = [
                     Elevating <span class="text-brand-red">Businesses</span><br />
                     with <span class="text-brand-gold">Financial Confidence</span>
                 </h1>
-                <p class="fade-up mt-6 text-lg md:text-xl text-gray-700 max-w-3xl mx-auto leading-relaxed font-light"
+                <p class="fade-up mt-6 text-lg md:text-xl text-white max-w-3xl mx-auto leading-relaxed font-light"
                     style="animation-delay: 0.9s">
                     MJRS Associates delivers professional tax, incorporation, and financial solutions
                     with clarity, compliance, and enduring trust.
                 </p>
                 <div class="fade-up mt-8 flex flex-wrap justify-center gap-4" style="animation-delay: 1.2s">
                     <a href="#services" class="inline-flex items-center rounded-md bg-brand-red px-6 py-2 text-sm font-semibold text-white
-            hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-red-300">
+        hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-red-300">
                         Get Started
                     </a>
                     <a href="#contact" class="inline-flex items-center rounded-md border border-gray-300 bg-white px-6 py-2 text-sm font-medium text-brand-black
-            hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-gray-200">
+        hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-gray-200">
                         Contact Us
                     </a>
                 </div>
             </div>
         </section>
+
 
         <!-- VALUE PROPOSITION / IDENTITY SECTION -->
         <section class="relative py-24 bg-gray-50 overflow-hidden border-t border-gray-200">
@@ -554,7 +565,7 @@ $page_jsonld = [
         </section>
 
         <!-- FAQ / KNOWLEDGE PANEL - LIGHT THEME -->
-        <section class="relative py-28 bg-white overflow-hidden border-t border-gray-200">
+        <section class="relative py-28 bg-white overflow-hidden border-t border-gray-200" id="faq">
             <!-- Subtle Grid Background -->
             <div class="absolute inset-0 opacity-[0.4]" style="background-image:
     linear-gradient(to right, rgba(229,229,229,0.3) 1px, transparent 1px),
