@@ -98,6 +98,7 @@
     <!-- Bottom Bar -->
     <div class="relative z-10 mt-16 border-t border-gray-800 pt-6 text-center text-sm text-gray-500">
         <p>© <span id="year"></span> MJRS Associates. All Rights Reserved.</p>
+        <p>Powered by <a class="text-orange-600" href="https://querytel.com/">Querytel Inc</a> </p>
     </div>
 
     <script>

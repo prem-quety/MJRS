@@ -34,8 +34,8 @@
             </div>
 
             <div>
-                <label for="subject" class="block text-sm font-medium text-brand-black mb-2">Subject</label>
-                <input type="text" id="subject" name="subject" placeholder="e.g., Incorporation Consultation"
+                <label for="subject" class="block text-sm font-medium text-brand-black mb-2">Contact Number</label>
+                <input type="text" id="subject" name="subject" placeholder="+1 (234) 45678"
                     class="w-full rounded-lg border border-gray-300 focus:border-brand-red focus:ring-1 focus:ring-brand-red px-4 py-2.5 text-gray-800 placeholder-gray-400 transition">
             </div>
 
