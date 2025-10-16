@@ -12,8 +12,8 @@
             </h2>
             <p class="fade-up text-gray-700 text-lg md:text-xl max-w-2xl mx-auto font-light leading-relaxed"
                 style="animation-delay: 0.4s;">
-                Our advisory team can walk you through the right structure, tax plan, or compliance process
-                — tailored to your business, not a template.
+                Our advisory team can guide you through the optimal structure, tax plan, or compliance process —
+                tailored to your business, not a one-size-fits-all template.
             </p>
         </div>
 

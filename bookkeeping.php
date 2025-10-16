@@ -159,19 +159,17 @@ include('./components/head.php');
                     <div class="space-y-6 text-gray-700 text-lg leading-relaxed">
                         <p>
                             Owners don’t want to babysit spreadsheets. You want books that close cleanly, reports that
-                            make sense,
-                            and a paper trail that stands up when the CRA knocks. That’s what our bookkeeping delivers.
+                            make sense, and a paper trail that stands up when the CRA knocks. That’s what our
+                            bookkeeping delivers.
                         </p>
                         <p>
                             We post and categorize transactions properly, reconcile every account, and keep AR/AP moving
-                            so cash doesn’t stall.
-                            Receipts are captured digitally and stored in an audit-safe archive, so nothing goes missing
-                            when year-end hits.
+                            so cash doesn’t stall. Receipts are captured digitally and stored in an audit-safe archive,
+                            ensuring that nothing goes missing when year-end arrives.
                         </p>
                         <p>
-                            Each month ends reconciled — not “we’ll fix it at year-end.” You get a brief summary of what
-                            changed and why,
-                            so you’re not guessing at the story behind the numbers.
+                            Each month ends reconciled — not “we’ll fix it at year-end.” You get a summary of what
+                            changed and why, so you’re not guessing at the story behind the numbers.
                         </p>
                     </div>
 
@@ -180,9 +178,8 @@ include('./components/head.php');
                         <h3 class="text-2xl font-bold text-brand-black">What You Get</h3>
                         <p class="text-gray-700 leading-relaxed">
                             Categorized transactions and bank/credit card reconciliations; AR/AP tracking; digital
-                            receipt capture and document storage;
-                            GST/HST coding and periodic filings coordination; monthly reports with a plain-English
-                            summary.
+                            receipt capture and document storage; GST/HST coding and periodic filings coordination;
+                            monthly reports with a plain-English summary.
                         </p>
                     </div>
 
@@ -236,9 +233,9 @@ include('./components/head.php');
                         class="bg-white border border-gray-200 rounded-3xl p-10 shadow-sm hover:shadow-md transition-all duration-300">
                         <h3 class="text-xl font-bold text-brand-black mb-2">Core</h3>
                         <p class="text-gray-600 mb-6">For lean operations that want clean, reconciled books.</p>
-                        <div class="text-4xl font-extrabold text-brand-black mb-1 price" data-monthly="119"
-                            data-annual="99">
-                            $119<span class="text-lg font-medium text-gray-500">/month</span>
+                        <div class="text-4xl font-extrabold text-brand-black mb-1 price" data-monthly="0"
+                            data-annual="0">
+                            $0<span class="text-lg font-medium text-gray-500">/month</span>
                         </div>
                         <div class="h-0.5 w-12 bg-brand-red mx-auto mb-6"></div>
                         <ul class="space-y-3 text-gray-700 text-sm text-left mb-10">
@@ -263,8 +260,8 @@ include('./components/head.php');
                             Most Popular</div>
                         <h3 class="text-xl font-bold mb-2 text-brand-gold">Plus</h3>
                         <p class="text-gray-300 mb-6">For teams that need AR/AP handled and filings coordinated.</p>
-                        <div class="text-4xl font-extrabold text-white mb-1 price" data-monthly="179" data-annual="149">
-                            $179<span class="text-lg font-medium text-gray-400">/month</span>
+                        <div class="text-4xl font-extrabold text-white mb-1 price" data-monthly="0" data-annual="0">
+                            $0<span class="text-lg font-medium text-gray-400">/month</span>
                         </div>
                         <div class="h-0.5 w-12 bg-brand-gold mx-auto mb-6"></div>
                         <ul class="space-y-3 text-gray-200 text-sm text-left mb-10">
@@ -286,9 +283,9 @@ include('./components/head.php');
                         class="bg-white border border-gray-200 rounded-3xl p-10 shadow-sm hover:shadow-md transition-all duration-300">
                         <h3 class="text-xl font-bold text-brand-black mb-2">Complete</h3>
                         <p class="text-gray-600 mb-6">For higher volume and audit-sensitive environments.</p>
-                        <div class="text-4xl font-extrabold text-brand-black mb-1 price" data-monthly="239"
-                            data-annual="199">
-                            $239<span class="text-lg font-medium text-gray-500">/month</span>
+                        <div class="text-4xl font-extrabold text-brand-black mb-1 price" data-monthly="0"
+                            data-annual="0">
+                            $0<span class="text-lg font-medium text-gray-500">/month</span>
                         </div>
                         <div class="h-0.5 w-12 bg-brand-red mx-auto mb-6"></div>
                         <ul class="space-y-3 text-gray-700 text-sm text-left mb-10">

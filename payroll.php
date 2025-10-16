@@ -153,13 +153,11 @@ include('./components/head.php');
                         <p>
                             Pay cycles are routine—until they aren’t. New hires, terminations, overtime, benefits, ROEs,
                             and rate changes can turn a simple run into a mini-project. We keep it boring in the best
-                            way:
-                            accurate inputs, automated checks, and review-ready records.
+                            way: accurate inputs, automated checks, and review-ready records.
                         </p>
                         <p>
                             Your finance team gets mapped GL postings. Your managers get clear summaries. Your staff
-                            gets
-                            paid on time. And you get a predictable cadence you don’t have to chase.
+                            gets paid on time. And you get a predictable cadence you don’t have to chase.
                         </p>
                     </div>
 
@@ -207,8 +205,8 @@ include('./components/head.php');
                                     class="w-4 h-4 text-gray-500 group-open:rotate-180 transition-transform"></i>
                             </summary>
                             <div class="mt-3 text-gray-700">
-                                Yes—we typically integrate with major Canadian payroll tools. If you’re switching, we’ll
-                                migrate safely.
+                                Yes—we typically integrate with primary Canadian payroll tools. If you’re switching,
+                                we’ll migrate safely.
                             </div>
                         </details>
                         <details

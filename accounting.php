@@ -53,8 +53,9 @@ include('./components/head.php');
 
                 <p class="fade-up mt-6 text-lg md:text-xl text-gray-100 max-w-3xl mx-auto leading-relaxed font-light"
                     style="animation-delay: 0.8s;">
-                    Formal financial statements, audit-ready controls, and clear visibility into performance — built for
-                    lenders, investors, and CRA.
+                    Formal financial statements, audit-ready controls, and clear visibility into performance. We design
+                    statements for decisions, not just for filing — giving owners, lenders, and investors the clarity
+                    they need to move with confidence.
                 </p>
             </div>
         </section>
@@ -163,21 +164,17 @@ include('./components/head.php');
                     <div class="space-y-6 text-gray-700 text-lg leading-relaxed">
                         <p>
                             Good accounting is less about the ledger and more about the signal. Each month, we translate
-                            activity into a narrative:
-                            where margins are holding, where cash is tightening, and where decisions need to be made.
-                            The result is reporting you
-                            can actually lead with.
+                            activity into a narrative: where margins are holding, where cash is tightening, and where
+                            decisions need to be made. The result is reporting you can actually lead with.
                         </p>
                         <p>
                             Your statements reflect reality, not just the bank balance. Accruals, deferrals, and review
-                            procedures ensure timing
-                            is correct and insights are comparable month-to-month. Variance analysis then highlights
-                            what changed — and why.
+                            procedures ensure that timing is correct and insights are comparable from month to month.
+                            Variance analysis then highlights what changed — and why.
                         </p>
                         <p>
-                            By year-end, working papers are complete and tax-ready. No reconstruction. No mystery
-                            balances. Just a clean trail that
-                            reduces risk and speeds up filing.
+                            By year-end, working papers are complete and ready for tax purposes. No reconstruction. No
+                            mystery balances. Just a clean trail that reduces risk and speeds up filing.
                         </p>
                     </div>
 
@@ -186,8 +183,8 @@ include('./components/head.php');
                         <h3 class="text-2xl font-bold text-brand-black">What You Get</h3>
                         <p class="text-gray-700 leading-relaxed">
                             Income Statement, Balance Sheet, and Cash Flow; adjusting entries and accruals; variance
-                            analysis against budget and prior periods;
-                            year-end working papers; and practical control guidance to reduce errors and risk.
+                            analysis against budget and prior periods; year-end working papers; and practical control
+                            guidance to reduce errors and risk.
                         </p>
                     </div>
 
@@ -195,8 +192,8 @@ include('./components/head.php');
                     <div class="bg-gray-50 rounded-2xl p-8 border border-gray-200">
                         <p class="text-brand-black font-semibold text-lg mb-2">Outcome: clarity, speed, control.</p>
                         <p class="text-gray-700">
-                            Clean financials mean fewer surprises and faster decisions. When your numbers tell a clear
-                            story, execution follows.
+                            Clean financials mean fewer surprises and faster, more informed decisions. When your numbers
+                            tell a clear story, execution follows.
                         </p>
                     </div>
                 </article>
@@ -241,9 +238,9 @@ include('./components/head.php');
                         class="bg-white border border-gray-200 rounded-3xl p-10 shadow-sm hover:shadow-md transition-all duration-300">
                         <h3 class="text-xl font-bold text-brand-black mb-2">Essentials</h3>
                         <p class="text-gray-600 mb-6">For small teams needing clean, reliable monthly statements.</p>
-                        <div class="text-4xl font-extrabold text-brand-black mb-1 price" data-monthly="129"
-                            data-annual="107">
-                            $129<span class="text-lg font-medium text-gray-500">/month</span>
+                        <div class="text-4xl font-extrabold text-brand-black mb-1 price" data-monthly="0"
+                            data-annual="0">
+                            $0<span class="text-lg font-medium text-gray-500">/month</span>
                         </div>
                         <div class="h-0.5 w-12 bg-brand-red mx-auto mb-6"></div>
                         <ul class="space-y-3 text-gray-700 text-sm text-left mb-10">
@@ -268,8 +265,8 @@ include('./components/head.php');
                             Most Popular</div>
                         <h3 class="text-xl font-bold mb-2 text-brand-gold">Growth</h3>
                         <p class="text-gray-300 mb-6">For growing companies that need analysis, not just reporting.</p>
-                        <div class="text-4xl font-extrabold text-white mb-1 price" data-monthly="199" data-annual="165">
-                            $199<span class="text-lg font-medium text-gray-400">/month</span>
+                        <div class="text-4xl font-extrabold text-white mb-1 price" data-monthly="0" data-annual="0">
+                            $0<span class="text-lg font-medium text-gray-400">/month</span>
                         </div>
                         <div class="h-0.5 w-12 bg-brand-gold mx-auto mb-6"></div>
                         <ul class="space-y-3 text-gray-200 text-sm text-left mb-10">
@@ -292,9 +289,9 @@ include('./components/head.php');
                         <h3 class="text-xl font-bold text-brand-black mb-2">Executive</h3>
                         <p class="text-gray-600 mb-6">For enterprises needing audit-ready papers and leadership support.
                         </p>
-                        <div class="text-4xl font-extrabold text-brand-black mb-1 price" data-monthly="249"
-                            data-annual="207">
-                            $249<span class="text-lg font-medium text-gray-500">/month</span>
+                        <div class="text-4xl font-extrabold text-brand-black mb-1 price" data-monthly="0"
+                            data-annual="0">
+                            $0<span class="text-lg font-medium text-gray-500">/month</span>
                         </div>
                         <div class="h-0.5 w-12 bg-brand-red mx-auto mb-6"></div>
                         <ul class="space-y-3 text-gray-700 text-sm text-left mb-10">

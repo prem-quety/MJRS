@@ -145,8 +145,7 @@ include('./components/head.php');
                         </h1>
                         <p class="text-lg text-gray-700 leading-relaxed max-w-3xl">
                             We prepare accurate T1 returns that maximize credits and deductions while keeping your
-                            documentation
-                            CRA-ready. Individuals, families, students, newcomers — we file for real life.
+                            documentation CRA-ready. Individuals, families, students, newcomers — we file for real life.
                         </p>
                     </header>
 
@@ -161,18 +160,16 @@ include('./components/head.php');
                         <p>
                             Your tax season shouldn’t be a scavenger hunt. We match slips, organize your documents, and
                             prepare schedules for employment, investments, rental properties, and self-employment — then
-                            file on time with the right documentation in place.
+                            file on time with the proper documentation in place.
                         </p>
                         <p>
                             We look for optimization opportunities (RRSP room, tuition transfers, childcare amounts,
-                            medical
-                            claims, donation strategies) and explain the trade-offs in plain English so you know what
-                            changed and why.
+                            medical claims, donation strategies) and explain the trade-offs in plain English so you know
+                            what changed and why.
                         </p>
                         <p>
-                            If the CRA asks questions, you won’t be on your own. Your file will be organized,
-                            reconciled, and
-                            ready for review — because we prepare like an audit could happen.
+                            If the CRA asks questions, you won’t be left to fend for yourself. Your file will be
+                            organized, reconciled, and ready for review — because we prepare like an audit could happen.
                         </p>
                     </div>
 
@@ -181,7 +178,7 @@ include('./components/head.php');
                         <h3 class="text-2xl font-bold text-brand-black">What’s Included</h3>
                         <p class="text-gray-700 leading-relaxed">
                             T1 return preparation and e-file; slip matching (T4, T5, T3, RL-slips where applicable);
-                            RRSP, tuition, donation, and dependent credit optimization; capital gains/loss schedules;
+                            RRSP, tuition, donation, and dependent credit optimization; capital gains/losses schedules;
                             rental and self-employment statements; tax summary with next-year tips.
                         </p>
                     </div>
@@ -191,8 +188,7 @@ include('./components/head.php');
                         <p class="text-brand-black font-semibold text-lg mb-2">Best for</p>
                         <p class="text-gray-700">
                             Employees with multiple slips, investors with gains/dividends, rental owners,
-                            students/newcomers,
-                            and families who want clean, optimized returns and fewer surprises.
+                            students/newcomers, and families who want clean, optimized returns and fewer surprises.
                         </p>
                     </div>
 
@@ -219,8 +215,8 @@ include('./components/head.php');
                                     class="w-4 h-4 text-gray-500 group-open:rotate-180 transition-transform"></i>
                             </summary>
                             <div class="mt-3 text-gray-700">
-                                Yes. We maintain an audit-ready package and can correspond with CRA regarding requests
-                                tied to your return.
+                                Yes. We have an audit-ready package, and we can discuss requests related to your return
+                                with the CRA.
                             </div>
                         </details>
                     </div>
@@ -251,7 +247,7 @@ include('./components/head.php');
                         class="bg-white border border-gray-200 rounded-3xl p-10 shadow-sm hover:shadow-md transition-all duration-300">
                         <h3 class="text-xl font-bold text-brand-black mb-2">Essential</h3>
                         <p class="text-gray-600 mb-6">Straightforward T1 with common credits.</p>
-                        <div class="text-4xl font-extrabold text-brand-black mb-1">$149</div>
+                        <div class="text-4xl font-extrabold text-brand-black mb-1">$0</div>
                         <div class="h-0.5 w-12 bg-brand-red mx-auto mb-6"></div>
                         <ul class="space-y-3 text-gray-700 text-sm text-left mb-10">
                             <li class="flex items-center gap-2"><i data-lucide="check"
@@ -275,7 +271,7 @@ include('./components/head.php');
                             Most Popular</div>
                         <h3 class="text-xl font-bold mb-2 text-brand-gold">Optimized</h3>
                         <p class="text-gray-300 mb-6">Investments, tuition transfers, donations, dependents.</p>
-                        <div class="text-4xl font-extrabold text-white mb-1">$249</div>
+                        <div class="text-4xl font-extrabold text-white mb-1">$0</div>
                         <div class="h-0.5 w-12 bg-brand-gold mx-auto mb-6"></div>
                         <ul class="space-y-3 text-gray-200 text-sm text-left mb-10">
                             <li class="flex items-center gap-2"><i data-lucide="check"
@@ -296,7 +292,7 @@ include('./components/head.php');
                         class="bg-white border border-gray-200 rounded-3xl p-10 shadow-sm hover:shadow-md transition-all duration-300">
                         <h3 class="text-xl font-bold text-brand-black mb-2">Comprehensive</h3>
                         <p class="text-gray-600 mb-6">Rental & self-employment statements included.</p>
-                        <div class="text-4xl font-extrabold text-brand-black mb-1">$349</div>
+                        <div class="text-4xl font-extrabold text-brand-black mb-1">$0</div>
                         <div class="h-0.5 w-12 bg-brand-red mx-auto mb-6"></div>
                         <ul class="space-y-3 text-gray-700 text-sm text-left mb-10">
                             <li class="flex items-center gap-2"><i data-lucide="check"

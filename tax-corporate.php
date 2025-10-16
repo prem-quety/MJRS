@@ -69,7 +69,7 @@ include('./components/head.php');
                     <ul class="space-y-3 text-gray-700 text-lg font-light">
                         <li class="border-b border-gray-200 pb-3">Full T2 prep with schedule accuracy and tie-outs</li>
                         <li class="border-b border-gray-200 pb-3">Loss carryforwards, CCA, and credits optimized</li>
-                        <li>Clean working papers your future self (and CRA) will thank you for</li>
+                        <li>Clean working papers, your future self (and CRA) will thank you for. </li>
                     </ul>
                 </div>
             </div>
@@ -132,7 +132,7 @@ include('./components/head.php');
                         </h1>
                         <p class="text-lg text-gray-700 leading-relaxed max-w-3xl">
                             We prepare accurate T2 returns with clean schedules, reconciled working papers, and
-                            supporting documentation—so you stay compliant, reduce risk, and keep your options open for
+                            supporting documentation—so you stay compliant, reduce risk, and maintain flexibility for
                             the year ahead.
                         </p>
                     </header>
@@ -148,18 +148,16 @@ include('./components/head.php');
                         <p>
                             Your T2 is more than a filing—it’s the narrative of your year. We align the return with your
                             financial statements, carry forward losses correctly, apply CCA strategically, and ensure
-                            the
-                            right schedules tell a clear, defensible story.
+                            the proper schedules tell a clear, defensible story.
                         </p>
                         <p>
                             Cash flow matters. We highlight payment timelines, upcoming installments, and planning
-                            opportunities
-                            tied to credits, deductions, and elections—so there are fewer surprises and more control.
+                            opportunities tied to credits, deductions, and elections—ensuring fewer surprises and
+                            greater control.
                         </p>
                         <p>
                             If CRA asks questions, you’ll have a tidy package: trial balance, lead sheets, schedules,
-                            and
-                            source tie-outs. Prepared like an audit could happen—because that’s the standard.
+                            and source tie-outs. Prepared like an audit could happen—because that’s the standard.
                         </p>
                     </div>
 
@@ -167,7 +165,7 @@ include('./components/head.php');
                     <div class="pl-6 border-l-4 border-brand-red space-y-3">
                         <h3 class="text-2xl font-bold text-brand-black">What’s Included</h3>
                         <p class="text-gray-700 leading-relaxed">
-                            Full T2 return preparation and e-file; schedule accuracy and tie-outs; loss carryforward
+                            Complete T2 return preparation and e-file; schedule accuracy and tie-outs; loss carryforward
                             application; CCA planning; dividend/bonus planning notes; documentation package with lead
                             sheets and reconciliation; next-year recommendations.
                         </p>
@@ -178,8 +176,7 @@ include('./components/head.php');
                         <p class="text-brand-black font-semibold text-lg mb-2">Best for</p>
                         <p class="text-gray-700">
                             CCPCs and private corporations that want clean, timely filings with proactive
-                            planning—whether
-                            you’re steady-state, growing, or restructuring.
+                            planning—whether you’re steady-state, growing, or restructuring.
                         </p>
                     </div>
 
@@ -237,7 +234,7 @@ include('./components/head.php');
                         class="bg-white border border-gray-200 rounded-3xl p-10 shadow-sm hover:shadow-md transition-all duration-300">
                         <h3 class="text-xl font-bold text-brand-black mb-2">Core</h3>
                         <p class="text-gray-600 mb-6">Simple corporate return (clean books, few schedules).</p>
-                        <div class="text-4xl font-extrabold text-brand-black mb-1">$749+</div>
+                        <div class="text-4xl font-extrabold text-brand-black mb-1">$0</div>
                         <div class="h-0.5 w-12 bg-brand-red mx-auto mb-6"></div>
                         <ul class="space-y-3 text-gray-700 text-sm text-left mb-10">
                             <li class="flex items-center gap-2"><i data-lucide="check"
@@ -261,7 +258,7 @@ include('./components/head.php');
                             Most Popular</div>
                         <h3 class="text-xl font-bold mb-2 text-brand-gold">Standard</h3>
                         <p class="text-gray-300 mb-6">Multi-schedule, installment mapping, planning notes.</p>
-                        <div class="text-4xl font-extrabold text-white mb-1">$1,199+</div>
+                        <div class="text-4xl font-extrabold text-white mb-1">$0</div>
                         <div class="h-0.5 w-12 bg-brand-gold mx-auto mb-6"></div>
                         <ul class="space-y-3 text-gray-200 text-sm text-left mb-10">
                             <li class="flex items-center gap-2"><i data-lucide="check"
@@ -283,7 +280,7 @@ include('./components/head.php');
                         <h3 class="text-xl font-bold text-brand-black mb-2">Advanced</h3>
                         <p class="text-gray-600 mb-6">Complex structures, multiple streams, or cross-border
                             coordination.</p>
-                        <div class="text-4xl font-extrabold text-brand-black mb-1">$1,899+</div>
+                        <div class="text-4xl font-extrabold text-brand-black mb-1">$0</div>
                         <div class="h-0.5 w-12 bg-brand-red mx-auto mb-6"></div>
                         <ul class="space-y-3 text-gray-700 text-sm text-left mb-10">
                             <li class="flex items-center gap-2"><i data-lucide="check"

@@ -66,9 +66,8 @@ include('./components/head.php');
                     </h2>
                     <p class="text-gray-700 text-lg font-light">
                         Our team focuses on the fundamentals that change outcomes: clean ledgers, versioned
-                        documentation,
-                        and a monthly rhythm that keeps leadership decisive. If it doesn’t help you decide, it doesn’t
-                        ship.
+                        documentation, and a monthly rhythm that keeps leadership decisive. If it doesn’t help you
+                        decide, it doesn’t ship.
                     </p>
                 </div>
             </div>
@@ -91,8 +90,8 @@ include('./components/head.php');
                 </h2>
                 <p class="fade-up text-lg md:text-xl text-gray-700 max-w-3xl mx-auto leading-relaxed font-light"
                     style="animation-delay:.4s;">
-                    We keep your books accurate, your reports clear, and your filings on time so you can run your
-                    business.
+                    We keep your books accurate, your reports clear, and your filings on time so that you can run your
+                    business efficiently.
                 </p>
 
                 <div class="fade-up mt-16 grid md:grid-cols-3 gap-10" style="animation-delay:.7s;">
@@ -105,7 +104,7 @@ include('./components/head.php');
                         </div>
                         <h3 class="text-lg font-semibold mb-3 text-brand-black">Accurate records</h3>
                         <p class="text-gray-600 text-sm leading-relaxed">
-                            Clean, consistent books and organized documents ready whenever you need them.
+                            Clean, consistent books and organized documents are ready whenever you need them.
                         </p>
                     </div>
 
@@ -149,8 +148,8 @@ include('./components/head.php');
                     </h2>
                     <p class="fade-up text-gray-700 text-lg leading-relaxed mb-6 font-light"
                         style="animation-delay:.4s;">
-                        We help owners and operators see the business clearly. That means accurate numbers, a cadence
-                        your team can keep, and documentation that stands up under audit.
+                        We help owners and operators gain a clear view of their business. That means accurate numbers, a
+                        cadence your team can keep, and documentation that stands up under audit.
                     </p>
                     <p class="fade-up text-gray-700 text-lg leading-relaxed font-light" style="animation-delay:.6s;">
                         The result is confidence: you know where margins bend, how cash behaves, and what to change

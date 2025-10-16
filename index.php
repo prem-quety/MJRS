@@ -110,9 +110,9 @@ $page_jsonld = [
                 <!-- Subtext -->
                 <p class="fade-up text-lg md:text-xl text-gray-700 max-w-3xl mx-auto leading-relaxed font-light"
                     style="animation-delay: 0.4s;">
-                    Your business doesn’t just need compliance — it needs financial architecture that scales.
-                    Our role is to help you interpret data, minimize exposure, and strengthen liquidity positions
-                    so that growth feels controlled, not chaotic.
+                    Your business doesn’t just need compliance — it requires financial architecture that scales. Our
+                    role is to help you interpret data, minimize exposure, and strengthen liquidity positions so that
+                    growth feels controlled, not chaotic.
                 </p>
 
                 <!-- Grid -->
@@ -132,8 +132,9 @@ $page_jsonld = [
                         </div>
                         <h3 class="text-lg font-semibold mb-3 text-brand-black">Smarter Entity Structuring</h3>
                         <p class="text-gray-600 text-sm leading-relaxed">
-                            Build the right corporate framework from day one — optimized for cash flow management,
-                            shareholding flexibility, and long-term tax efficiency under CRA and provincial regulations.
+                            We build the proper corporate framework from day one — optimized for cash flow management,
+                            shareholding flexibility, and long-term tax efficiency in accordance with CRA and provincial
+                            regulations.
                         </p>
                     </div>
 
@@ -151,8 +152,9 @@ $page_jsonld = [
                         </div>
                         <h3 class="text-lg font-semibold mb-3 text-brand-black">Strategic Tax Positioning</h3>
                         <p class="text-gray-600 text-sm leading-relaxed">
-                            Align your operational and fiscal year strategy to leverage deductions, credits, and
-                            capital cost allowances that preserve working capital and reduce long-term tax exposure.
+                            You can align your operational and fiscal year strategies to leverage deductions, credits,
+                            and capital cost allowances, thereby preserving working capital and reducing long-term tax
+                            exposure.
                         </p>
                     </div>
 
@@ -172,9 +174,9 @@ $page_jsonld = [
                         </div>
                         <h3 class="text-lg font-semibold mb-3 text-brand-black">Financial Intelligence in Action</h3>
                         <p class="text-gray-600 text-sm leading-relaxed">
-                            Turn statements into strategy. Identify performance gaps, monitor margin integrity,
-                            and forecast liquidity with data models that make your financial decisions faster and
-                            defensible.
+                            Turn statements into strategy. Identify performance gaps, monitor margin integrity, and
+                            forecast liquidity with data models that enable faster and more defensible financial
+                            decisions.
                         </p>
                     </div>
                 </div>
@@ -483,9 +485,9 @@ $page_jsonld = [
                             <p class="text-sm uppercase tracking-wide text-brand-gold/80 mb-4">Manufacturing / Ontario
                             </p>
                             <p class="text-gray-400 leading-relaxed">
-                                A client’s fragmented revenue recognition system delayed receivables by $1.2M annually.
-                                MJRS audited departmental billing flow, unified reporting streams, and automated ledger
-                                synchronization across business units.
+                                A client’s fragmented revenue recognition system resulted in delayed receivables of
+                                $1.2M annually. MJRS audited departmental billing flow, unified reporting streams, and
+                                automated ledger synchronization across business units.
                             </p>
                         </div>
                         <div class="md:w-2/3 grid md:grid-cols-3 gap-8 mt-8 md:mt-0">
@@ -510,10 +512,9 @@ $page_jsonld = [
                             <h3 class="text-2xl font-semibold text-white mb-2">Cross-Border Compliance Alignment</h3>
                             <p class="text-sm uppercase tracking-wide text-brand-red/80 mb-4">SaaS / Canada–US</p>
                             <p class="text-gray-400 leading-relaxed">
-                                During expansion, the client faced withholding mismatches and inconsistent reporting
-                                between CRA and IRS.
-                                MJRS built a unified compliance matrix integrating both systems through dual-ledger
-                                automation.
+                                During the expansion, the client encountered withholding mismatches and inconsistent
+                                reporting between the CRA and IRS. MJRS built a unified compliance matrix integrating
+                                both systems through dual-ledger automation.
                             </p>
                         </div>
                         <div class="md:w-2/3 grid md:grid-cols-3 gap-8 mt-8 md:mt-0">
@@ -539,9 +540,9 @@ $page_jsonld = [
                             <p class="text-sm uppercase tracking-wide text-brand-gold/80 mb-4">Professional Services /
                                 GTA</p>
                             <p class="text-gray-400 leading-relaxed">
-                                Partner onboarding required structural reorganization and legal continuity.
-                                MJRS rebuilt the incorporation digitally, redesigned share classes, and implemented
-                                auto-tracked corporate governance logs.
+                                Partner onboarding necessitated a structural reorganization and ensured legal
+                                continuity. MJRS rebuilt the incorporation digitally, redesigned share classes, and
+                                implemented auto-tracked corporate governance logs.
                             </p>
                         </div>
                         <div class="md:w-2/3 grid md:grid-cols-3 gap-8 mt-8 md:mt-0">
@@ -585,8 +586,8 @@ $page_jsonld = [
                     </h2>
                     <p class="fade-up text-gray-600 text-lg md:text-xl font-light max-w-2xl mx-auto leading-relaxed"
                         style="animation-delay: 0.4s;">
-                        Precision demands transparency.
-                        Here are the most common questions clients ask before engaging with MJRS.
+                        Precision demands transparency. Here are the most frequently asked questions clients have before
+                        engaging with MJRS.
                     </p>
                 </div>
 
@@ -609,10 +610,8 @@ $page_jsonld = [
                         </summary>
                         <p class="mt-4 text-gray-600 leading-relaxed">
                             We work with privately held corporations, professional practices, and expanding enterprises
-                            that need structured
-                            financial control. Our work spans incorporation, taxation, and compliance across industries
-                            like logistics, tech,
-                            and healthcare.
+                            that need structured financial control. Our work spans incorporation, taxation, and
+                            compliance across various industries, including logistics, technology, and healthcare.
                         </p>
                     </details>
 
@@ -632,9 +631,8 @@ $page_jsonld = [
                         </summary>
                         <p class="mt-4 text-gray-600 leading-relaxed">
                             Each filing passes through a two-stage review: digital ledger verification and CRA-aligned
-                            documentation control.
-                            Our audit-trace system ensures all reports remain inspection-ready, version-controlled, and
-                            fully traceable.
+                            documentation control. Our audit-trace system ensures all reports remain inspection-ready,
+                            version-controlled, and fully traceable.
                         </p>
                     </details>
 
@@ -653,9 +651,8 @@ $page_jsonld = [
                             </svg>
                         </summary>
                         <p class="mt-4 text-gray-600 leading-relaxed">
-                            We operate more like a financial engineering team than a bookkeeping service.
-                            Instead of just preparing reports, we build systems — automating compliance, optimizing tax
-                            structures,
+                            We operate more like a financial engineering team than a bookkeeping service. Instead of
+                            just preparing reports, we build systems — automating compliance, optimizing tax structures,
                             and delivering actionable intelligence to decision-makers.
                         </p>
                     </details>
@@ -676,8 +673,8 @@ $page_jsonld = [
                         </summary>
                         <p class="mt-4 text-gray-600 leading-relaxed">
                             Absolutely. We manage cross-border taxation between CRA and IRS frameworks, align
-                            multi-entity structures,
-                            and standardize reporting for global compliance — ensuring accuracy without redundancy.
+                            multi-entity structures, and standardize reporting for global compliance — ensuring accuracy
+                            without redundancy.
                         </p>
                     </details>
 
@@ -696,9 +693,9 @@ $page_jsonld = [
                             </svg>
                         </summary>
                         <p class="mt-4 text-gray-600 leading-relaxed">
-                            Client records are stored within encrypted, access-controlled environments compliant with
-                            PIPEDA and FINTRAC regulations.
-                            We maintain full audit logs, encrypted backups, and zero third-party data exposure.
+                            Client records are stored in encrypted, access-controlled environments that comply with
+                            PIPEDA and FINTRAC regulations. We maintain full audit logs, encrypted backups, and zero
+                            exposure to third-party data.
                         </p>
                     </details>
 

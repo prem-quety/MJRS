@@ -138,9 +138,8 @@ include('./components/head.php');
                             Business Advisory / Consulting
                         </h1>
                         <p class="text-lg text-gray-700 leading-relaxed max-w-3xl">
-                            We help you choose the next right move—pricing, hiring, capital, product, or
-                            operations—using
-                            clear financial logic and a cadence your team can run every month.
+                            We help you make the next right move—whether it's pricing, hiring, capital, product, or
+                            operations—using clear financial logic and a cadence that your team can run every month.
                         </p>
                     </header>
 
@@ -157,10 +156,8 @@ include('./components/head.php');
                         </p>
                         <p>
                             Advisory isn’t a deck. It’s the discipline of asking the right questions, finding the
-                            signal,
-                            and committing to actions that compound. We stay close enough to help you execute—and far
-                            enough
-                            to keep perspective.
+                            signal, and committing to actions that compound. We stay close enough to help you
+                            execute—and far enough to keep perspective.
                         </p>
                         <p>
                             The result: fewer reactive meetings, tighter cash control, and a team that knows what “good”
@@ -221,8 +218,8 @@ include('./components/head.php');
                                     class="w-4 h-4 text-gray-500 group-open:rotate-180 transition-transform"></i>
                             </summary>
                             <div class="mt-3 text-gray-700">
-                                Most clients see clarity in week one, and measurable operational shifts within the first
-                                quarter.
+                                Most clients experience clarity within the first week and measurable operational shifts
+                                by the end of the first quarter.
                             </div>
                         </details>
                     </div>
