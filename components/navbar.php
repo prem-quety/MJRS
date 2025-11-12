@@ -5,6 +5,7 @@
         <div class="flex gap-6 text-xs md:text-sm text-brand-black/70">
             <a href="tel:+16474648624" class="hover:text-brand-red transition">+1 (647) 464-8624</a>
             <a href="tel:+16478880883" class="hover:text-brand-red transition">+1 (647) 888-0883</a>
+            <a href="tel:+16474606865" class="hover:text-brand-red transition">+1 (647) 460-6865</a>
             <a href="mailto:info@mjrsassociates.ca" class="hover:text-brand-red transition">info@mjrsassociates.ca</a>
         </div>
         <a href="./incorporation" class="hidden md:inline-flex items-center rounded-md bg-brand-red px-4 py-1.5 text-xs md:text-sm font-semibold text-white

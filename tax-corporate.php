@@ -124,175 +124,200 @@ include('./components/head.php');
                 </aside>
 
                 <!-- Main -->
-                <article class="md:col-span-2 space-y-12">
+                <article class="md:col-span-2 space-y-14">
                     <!-- Header -->
                     <header>
-                        <h1 class="text-3xl md:text-4xl font-extrabold text-brand-black mb-4">
-                            Corporate Tax Preparation (T2)
+                        <h1 class="text-4xl md:text-5xl font-extrabold text-brand-black mb-3 tracking-tight">
+                            Corporate Tax & Strategic Structuring
                         </h1>
+                        <p class="text-xl text-brand-red font-semibold mb-2">
+                            Positioning you for growth. Built for compliance.
+                        </p>
                         <p class="text-lg text-gray-700 leading-relaxed max-w-3xl">
-                            We prepare accurate T2 returns with clean schedules, reconciled working papers, and
-                            supporting documentation—so you stay compliant, reduce risk, and maintain flexibility for
-                            the year ahead.
+                            At MJRS Associates, we partner with Canadian business owners to design the right corporate
+                            structure, minimize tax
+                            risk, and maintain full compliance — so you can focus on what you do best while we protect
+                            your bottom line.
                         </p>
                     </header>
 
                     <!-- Image -->
                     <figure class="rounded-2xl overflow-hidden border border-gray-200 shadow-sm">
-                        <img src="./assets/images/finservices.webp" alt="Corporate Tax Preparation"
+                        <img src="./assets/images/Picture2.jpg" alt="Corporate Tax & Strategic Structuring"
                             class="w-full object-cover">
                     </figure>
 
-                    <!-- Story -->
-                    <div class="space-y-6 text-gray-700 text-lg leading-relaxed">
-                        <p>
-                            Your T2 is more than a filing—it’s the narrative of your year. We align the return with your
-                            financial statements, carry forward losses correctly, apply CCA strategically, and ensure
-                            the proper schedules tell a clear, defensible story.
-                        </p>
-                        <p>
-                            Cash flow matters. We highlight payment timelines, upcoming installments, and planning
-                            opportunities tied to credits, deductions, and elections—ensuring fewer surprises and
-                            greater control.
-                        </p>
-                        <p>
-                            If CRA asks questions, you’ll have a tidy package: trial balance, lead sheets, schedules,
-                            and source tie-outs. Prepared like an audit could happen—because that’s the standard.
-                        </p>
-                    </div>
+                    <!-- What We Offer -->
+                    <section class="space-y-6">
+                        <div class="flex items-center gap-2 mb-3">
+                            <i data-lucide="briefcase" class="w-6 h-6 text-brand-red"></i>
+                            <h2 class="text-3xl font-bold text-brand-black">What We Offer</h2>
+                        </div>
+                        <ul class="space-y-4 text-gray-700 text-[1.05rem] leading-relaxed">
+                            <li><span class="font-semibold text-brand-black">Corporate Tax Filing (T2):</span> Accurate,
+                                timely preparation and filing of your corporate returns with full documentation and
+                                CRA-ready support.</li>
+                            <li><span class="font-semibold text-brand-black">Tax Planning & Optimization:</span>
+                                Proactive strategies to reduce tax exposure, manage timing, and align your structure
+                                with long-term goals.</li>
+                            <li><span class="font-semibold text-brand-black">Business Structuring &
+                                    Incorporation:</span> Guidance on when to incorporate and how to structure entities
+                                for scalable, tax-efficient growth.</li>
+                            <li><span class="font-semibold text-brand-black">Compliance & Audit Readiness:</span> We
+                                build ecosystems that ensure your records, books, and filings stand up under scrutiny —
+                                no surprises.</li>
+                            <li><span class="font-semibold text-brand-black">Cross-Border & Multi-Jurisdiction
+                                    Clients:</span> For businesses operating across regions, we coordinate international
+                                tax and compliance considerations.</li>
+                        </ul>
+                    </section>
 
-                    <!-- Deliverables -->
-                    <div class="pl-6 border-l-4 border-brand-red space-y-3">
-                        <h3 class="text-2xl font-bold text-brand-black">What’s Included</h3>
-                        <p class="text-gray-700 leading-relaxed">
-                            Complete T2 return preparation and e-file; schedule accuracy and tie-outs; loss carryforward
-                            application; CCA planning; dividend/bonus planning notes; documentation package with lead
-                            sheets and reconciliation; next-year recommendations.
-                        </p>
-                    </div>
+                    <!-- Why Work With Us -->
+                    <section class="space-y-6 mt-12">
+                        <div class="flex items-center gap-2 mb-3">
+                            <i data-lucide="star" class="w-6 h-6 text-brand-red"></i>
+                            <h2 class="text-3xl font-bold text-brand-black">Why Work With Us</h2>
+                        </div>
+                        <ul class="space-y-4 text-gray-700 text-[1.05rem] leading-relaxed">
+                            <li><span class="font-semibold text-brand-black">Expertise + Precision:</span> Deep
+                                corporate-tax knowledge supported by efficient systems — nothing slips between the
+                                cracks.</li>
+                            <li><span class="font-semibold text-brand-black">Tailored to Your Business:</span> Every
+                                plan is customized to your business size, structure, and growth stage — no templates
+                                here.</li>
+                            <li><span class="font-semibold text-brand-black">Audit-Ready Infrastructure:</span> We
+                                maintain clean documentation so you’re always ready for CRA or internal review.</li>
+                            <li><span class="font-semibold text-brand-black">Strategic-First Approach:</span> Beyond
+                                compliance, we help with expansion, exit planning, and financial architecture.</li>
+                            <li><span class="font-semibold text-brand-black">Canada-Wide Reach:</span> Based in
+                                Oakville, ON, serving clients nationwide through secure cloud systems.</li>
+                        </ul>
+                    </section>
 
-                    <!-- Best For -->
-                    <div class="bg-gray-50 rounded-2xl p-8 border border-gray-200">
-                        <p class="text-brand-black font-semibold text-lg mb-2">Best for</p>
-                        <p class="text-gray-700">
-                            CCPCs and private corporations that want clean, timely filings with proactive
-                            planning—whether you’re steady-state, growing, or restructuring.
-                        </p>
-                    </div>
+                    <!-- Ideal Clients -->
+                    <section class="space-y-5 mt-12">
+                        <div class="flex items-center gap-2 mb-3">
+                            <i data-lucide="users" class="w-6 h-6 text-brand-red"></i>
+                            <h2 class="text-3xl font-bold text-brand-black">Ideal Clients</h2>
+                        </div>
+                        <ul class="grid sm:grid-cols-2 gap-y-2 text-gray-700 text-[1.05rem]">
+                            <li>Operate a corporation needing optimized tax structure</li>
+                            <li>Planning growth, acquisition, or exit</li>
+                            <li>Preparing for audit or facing audit risk</li>
+                            <li>Running multi-jurisdiction or foreign-income operations</li>
+                        </ul>
+                    </section>
 
-                    <!-- Mini FAQ -->
-                    <div class="space-y-4">
-                        <h3 class="text-2xl font-bold text-brand-black">Quick Answers</h3>
-                        <details
-                            class="group bg-white border border-gray-200 rounded-xl p-5 hover:shadow-sm transition">
-                            <summary class="flex items-center justify-between cursor-pointer list-none">
-                                <span class="font-medium text-brand-black">Do you coordinate with our
-                                    accountant/bookkeeper?</span>
-                                <i data-lucide="chevron-down"
-                                    class="w-4 h-4 text-gray-500 group-open:rotate-180 transition-transform"></i>
-                            </summary>
-                            <div class="mt-3 text-gray-700">
-                                Yes—share your TB and year-end package; we handle tie-outs and flag gaps early.
-                            </div>
-                        </details>
-                        <details
-                            class="group bg-white border border-gray-200 rounded-xl p-5 hover:shadow-sm transition">
-                            <summary class="flex items-center justify-between cursor-pointer list-none">
-                                <span class="font-medium text-brand-black">Can you help with installment
-                                    planning?</span>
-                                <i data-lucide="chevron-down"
-                                    class="w-4 h-4 text-gray-500 group-open:rotate-180 transition-transform"></i>
-                            </summary>
-                            <div class="mt-3 text-gray-700">
-                                Absolutely. We map amounts and due dates, and suggest strategies to smooth cash flow.
-                            </div>
-                        </details>
-                    </div>
+                    <!-- Get Started -->
+                    <section class="bg-gray-50 rounded-2xl p-10 border border-gray-200 text-center mt-14">
+                        <div class="flex items-center justify-center gap-2 mb-4">
+                            <i data-lucide="sparkles" class="w-6 h-6 text-brand-red"></i>
+                            <h2 class="text-3xl font-bold text-brand-black">Get Started</h2>
+                        </div>
+                        <p class="text-gray-700 text-lg mb-6 max-w-2xl mx-auto">
+                            Ready to align your corporate structure with your ambitions? Book a free consultation and
+                            let’s map your
+                            tax-strategy, structure, and compliance roadmap.
+                        </p>
+                        <p class="font-medium text-brand-black flex items-center justify-center gap-3 mb-6">
+                            <i data-lucide="phone" class="w-5 h-5 text-brand-red"></i> (647) 888-0883
+                            <span class="text-gray-400">|</span>
+                            <i data-lucide="mail" class="w-5 h-5 text-brand-red"></i> info@mjrsassociates.ca
+                        </p>
+                        <a href="./contact"
+                            class="inline-block px-10 py-3 rounded-full border border-brand-red text-brand-red font-semibold hover:bg-brand-red hover:text-white transition">
+                            Book a Free Consultation →
+                        </a>
+                    </section>
                 </article>
+
+
             </div>
         </section>
 
         <!-- PRICING (optional tiers) -->
         <section class="relative py-28 bg-white border-t border-gray-200">
             <div class="absolute inset-0 opacity-[0.3]" style="background-image:
-                linear-gradient(to right, rgba(229,229,229,0.3) 1px, transparent 1px),
-                linear-gradient(to bottom, rgba(229,229,229,0.3) 1px, transparent 1px);
-                background-size: 40px 40px;"></div>
+        linear-gradient(to right, rgba(229,229,229,0.3) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(229,229,229,0.3) 1px, transparent 1px);
+        background-size: 40px 40px;"></div>
             <div class="absolute -top-40 right-0 w-[26rem] h-[26rem] bg-brand-gold/10 rounded-full blur-[160px]"></div>
 
             <div class="relative z-10 max-w-7xl mx-auto px-6 text-center">
                 <h2 class="text-4xl md:text-5xl font-extrabold text-brand-black mb-6">
-                    Corporate Tax <span class="text-brand-red">Pricing</span>
+                    Corporate Tax <span class="text-brand-red">Plans</span> That Fit Your Business
                 </h2>
                 <p class="text-lg md:text-xl text-gray-700 font-light max-w-3xl mx-auto mb-12 leading-relaxed">
-                    We quote based on complexity and completeness of your books. Below are typical ranges.
+                    Our corporate tax services are tailored to your company’s size, structure, and goals. Let’s discuss
+                    the best plan for your business.
                 </p>
 
                 <div class="grid md:grid-cols-3 gap-10">
-                    <!-- Core -->
+                    <!-- Core Plan -->
                     <div
                         class="bg-white border border-gray-200 rounded-3xl p-10 shadow-sm hover:shadow-md transition-all duration-300">
-                        <h3 class="text-xl font-bold text-brand-black mb-2">Core</h3>
-                        <p class="text-gray-600 mb-6">Simple corporate return (clean books, few schedules).</p>
-                        <div class="text-4xl font-extrabold text-brand-black mb-1">$0</div>
+                        <h3 class="text-xl font-bold text-brand-black mb-2">Core Plan</h3>
+                        <p class="text-gray-600 mb-6">For small corporations with simple reporting needs.</p>
+                        <div class="text-xl font-semibold text-brand-black mb-1">Schedule a Call to Discuss</div>
                         <div class="h-0.5 w-12 bg-brand-red mx-auto mb-6"></div>
                         <ul class="space-y-3 text-gray-700 text-sm text-left mb-10">
                             <li class="flex items-center gap-2"><i data-lucide="check"
-                                    class="w-4 h-4 text-brand-gold"></i> T2 + Essential Schedules</li>
+                                    class="w-4 h-4 text-brand-gold"></i> T2 + Basic Schedules</li>
                             <li class="flex items-center gap-2"><i data-lucide="check"
-                                    class="w-4 h-4 text-brand-gold"></i> CCA & Loss Carryforward</li>
+                                    class="w-4 h-4 text-brand-gold"></i> CCA & Loss Carryforward Review</li>
                             <li class="flex items-center gap-2"><i data-lucide="check"
-                                    class="w-4 h-4 text-brand-gold"></i> E-file + Summary</li>
+                                    class="w-4 h-4 text-brand-gold"></i> E-file & CRA Summary</li>
                         </ul>
                         <a href="./contact"
                             class="inline-block w-full text-center py-3 rounded-full border border-brand-red text-brand-red font-semibold hover:bg-brand-red hover:text-white transition">
-                            Get Quote
+                            Schedule a Call →
                         </a>
                     </div>
 
-                    <!-- Standard (Most Popular) -->
+                    <!-- Standard Plan (Most Popular) -->
                     <div
                         class="bg-brand-black text-white border-2 border-brand-gold rounded-3xl p-10 shadow-lg relative transform md:-translate-y-3 hover:-translate-y-4 transition-all duration-300">
                         <div
                             class="absolute top-0 right-0 bg-brand-gold text-brand-black text-xs font-semibold px-3 py-1 rounded-bl-xl">
                             Most Popular</div>
-                        <h3 class="text-xl font-bold mb-2 text-brand-gold">Standard</h3>
-                        <p class="text-gray-300 mb-6">Multi-schedule, installment mapping, planning notes.</p>
-                        <div class="text-4xl font-extrabold text-white mb-1">$0</div>
+                        <h3 class="text-xl font-bold mb-2 text-brand-gold">Standard Plan</h3>
+                        <p class="text-gray-300 mb-6">Perfect for growing corporations that need insight and compliance
+                            support.</p>
+                        <div class="text-xl font-semibold text-white mb-1">Schedule a Call to Discuss</div>
                         <div class="h-0.5 w-12 bg-brand-gold mx-auto mb-6"></div>
                         <ul class="space-y-3 text-gray-200 text-sm text-left mb-10">
                             <li class="flex items-center gap-2"><i data-lucide="check"
-                                    class="w-4 h-4 text-brand-gold"></i> Extended Schedules & Tie-outs</li>
+                                    class="w-4 h-4 text-brand-gold"></i> Extended Schedules & Tie-Outs</li>
                             <li class="flex items-center gap-2"><i data-lucide="check"
-                                    class="w-4 h-4 text-brand-gold"></i> Installment & Cash Flow Guide</li>
+                                    class="w-4 h-4 text-brand-gold"></i> Installment & Cash Flow Planning</li>
                             <li class="flex items-center gap-2"><i data-lucide="check"
-                                    class="w-4 h-4 text-brand-gold"></i> Next-Year Planning Recommendations</li>
+                                    class="w-4 h-4 text-brand-gold"></i> CRA-Ready Documentation</li>
                         </ul>
                         <a href="./contact"
                             class="inline-block w-full text-center py-3 rounded-full bg-brand-gold text-brand-black font-semibold hover:bg-white transition">
-                            Get Quote
+                            Schedule a Call →
                         </a>
                     </div>
 
-                    <!-- Advanced -->
+                    <!-- Advanced Plan -->
                     <div
                         class="bg-white border border-gray-200 rounded-3xl p-10 shadow-sm hover:shadow-md transition-all duration-300">
-                        <h3 class="text-xl font-bold text-brand-black mb-2">Advanced</h3>
-                        <p class="text-gray-600 mb-6">Complex structures, multiple streams, or cross-border
-                            coordination.</p>
-                        <div class="text-4xl font-extrabold text-brand-black mb-1">$0</div>
+                        <h3 class="text-xl font-bold text-brand-black mb-2">Advanced Plan</h3>
+                        <p class="text-gray-600 mb-6">For complex structures, cross-border entities, and strategic
+                            filings.</p>
+                        <div class="text-xl font-semibold text-brand-black mb-1">Schedule a Call to Discuss</div>
                         <div class="h-0.5 w-12 bg-brand-red mx-auto mb-6"></div>
                         <ul class="space-y-3 text-gray-700 text-sm text-left mb-10">
                             <li class="flex items-center gap-2"><i data-lucide="check"
-                                    class="w-4 h-4 text-brand-gold"></i> Complex Schedules & Elections</li>
+                                    class="w-4 h-4 text-brand-gold"></i> Multi-Entity Coordination</li>
                             <li class="flex items-center gap-2"><i data-lucide="check"
-                                    class="w-4 h-4 text-brand-gold"></i> Documentation Package (Lead Sheets)</li>
+                                    class="w-4 h-4 text-brand-gold"></i> Advanced Elections & Compliance</li>
                             <li class="flex items-center gap-2"><i data-lucide="check"
-                                    class="w-4 h-4 text-brand-gold"></i> CRA Follow-Up Support</li>
+                                    class="w-4 h-4 text-brand-gold"></i> Dedicated Corporate Tax Advisor</li>
                         </ul>
                         <a href="./contact"
                             class="inline-block w-full text-center py-3 rounded-full border border-brand-gold text-brand-gold font-semibold hover:bg-brand-gold hover:text-brand-black transition">
-                            Get Quote
+                            Schedule a Call →
                         </a>
                     </div>
                 </div>

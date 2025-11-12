@@ -2,15 +2,15 @@
 header('Content-Type: application/json');
 
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
-    http_response_code(405);
-    echo json_encode(['error' => 'Invalid request method']);
-    exit;
+  http_response_code(405);
+  echo json_encode(['error' => 'Invalid request method']);
+  exit;
 }
 
 // sanitize helper
 function clean($v)
 {
-    return htmlspecialchars(trim($v), ENT_QUOTES, 'UTF-8');
+  return htmlspecialchars(trim($v), ENT_QUOTES, 'UTF-8');
 }
 
 $name = clean($_POST['name'] ?? '');
@@ -19,9 +19,9 @@ $subject = clean($_POST['subject'] ?? 'General Inquiry');
 $message = clean($_POST['message'] ?? '');
 
 if (!$name || !$email || !$message) {
-    http_response_code(400);
-    echo json_encode(['error' => 'Please fill out all required fields.']);
-    exit;
+  http_response_code(400);
+  echo json_encode(['error' => 'Please fill out all required fields.']);
+  exit;
 }
 
 // Build email body
@@ -86,25 +86,25 @@ $html = '
 // Resend configuration
 $apiKey = 're_i1nyGiXQ_Hscy7xjAjofGxZWLSgmpxBm6'; // your Resend API key
 $fromEmail = 'onboarding@resend.dev';
-$toEmail = 'prem.kumar@querytel.com'; // temp recipient
+$toEmail = 'owais.hassan@querytel.com'; // temp recipient
 
 $payload = json_encode([
-    'from' => "MJRS Associates <{$fromEmail}>",
-    'to' => [$toEmail],
-    'subject' => "Website Inquiry — {$subject}",
-    'html' => $html,
-    'reply_to' => $email
+  'from' => "MJRS Associates <{$fromEmail}>",
+  'to' => [$toEmail],
+  'subject' => "Website Inquiry — {$subject}",
+  'html' => $html,
+  'reply_to' => $email
 ]);
 
 $ch = curl_init('https://api.resend.com/emails');
 curl_setopt_array($ch, [
-    CURLOPT_RETURNTRANSFER => true,
-    CURLOPT_HTTPHEADER => [
-        "Authorization: Bearer {$apiKey}",
-        "Content-Type: application/json"
-    ],
-    CURLOPT_POST => true,
-    CURLOPT_POSTFIELDS => $payload
+  CURLOPT_RETURNTRANSFER => true,
+  CURLOPT_HTTPHEADER => [
+    "Authorization: Bearer {$apiKey}",
+    "Content-Type: application/json"
+  ],
+  CURLOPT_POST => true,
+  CURLOPT_POSTFIELDS => $payload
 ]);
 $response = curl_exec($ch);
 $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
@@ -112,14 +112,14 @@ $error = curl_error($ch);
 curl_close($ch);
 
 if ($error) {
-    http_response_code(500);
-    echo json_encode(['error' => 'cURL error: ' . $error]);
-    exit;
+  http_response_code(500);
+  echo json_encode(['error' => 'cURL error: ' . $error]);
+  exit;
 }
 
 if ($httpCode >= 200 && $httpCode < 300) {
-    echo json_encode(['success' => 'Your message has been sent successfully.']);
+  echo json_encode(['success' => 'Your message has been sent successfully.']);
 } else {
-    http_response_code($httpCode);
-    echo json_encode(['error' => 'Resend API error: ' . $response]);
+  http_response_code($httpCode);
+  echo json_encode(['error' => 'Resend API error: ' . $response]);
 }

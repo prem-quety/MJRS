@@ -228,9 +228,9 @@ include('./components/head.php');
         <section class="relative py-28 bg-white border-t border-gray-200">
             <!-- Background Accent -->
             <div class="absolute inset-0 opacity-[0.3]" style="background-image:
-                linear-gradient(to right, rgba(229,229,229,0.3) 1px, transparent 1px),
-                linear-gradient(to bottom, rgba(229,229,229,0.3) 1px, transparent 1px);
-                background-size: 40px 40px;"></div>
+        linear-gradient(to right, rgba(229,229,229,0.3) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(229,229,229,0.3) 1px, transparent 1px);
+        background-size: 40px 40px;"></div>
             <div class="absolute -top-40 right-0 w-[26rem] h-[26rem] bg-brand-gold/10 rounded-full blur-[160px]"></div>
 
             <div class="relative z-10 max-w-7xl mx-auto px-6 text-center">
@@ -247,7 +247,7 @@ include('./components/head.php');
                         class="bg-white border border-gray-200 rounded-3xl p-10 shadow-sm hover:shadow-md transition-all duration-300">
                         <h3 class="text-xl font-bold text-brand-black mb-2">Essential</h3>
                         <p class="text-gray-600 mb-6">Straightforward T1 with common credits.</p>
-                        <div class="text-4xl font-extrabold text-brand-black mb-1">$0</div>
+                        <div class="text-xl font-semibold text-brand-black mb-1">Schedule a Call to Discuss</div>
                         <div class="h-0.5 w-12 bg-brand-red mx-auto mb-6"></div>
                         <ul class="space-y-3 text-gray-700 text-sm text-left mb-10">
                             <li class="flex items-center gap-2"><i data-lucide="check"
@@ -259,7 +259,7 @@ include('./components/head.php');
                         </ul>
                         <a href="./contact"
                             class="inline-block w-full text-center py-3 rounded-full border border-brand-red text-brand-red font-semibold hover:bg-brand-red hover:text-white transition">
-                            Get Started
+                            Schedule a Call →
                         </a>
                     </div>
 
@@ -271,7 +271,7 @@ include('./components/head.php');
                             Most Popular</div>
                         <h3 class="text-xl font-bold mb-2 text-brand-gold">Optimized</h3>
                         <p class="text-gray-300 mb-6">Investments, tuition transfers, donations, dependents.</p>
-                        <div class="text-4xl font-extrabold text-white mb-1">$0</div>
+                        <div class="text-xl font-semibold text-white mb-1">Schedule a Call to Discuss</div>
                         <div class="h-0.5 w-12 bg-brand-gold mx-auto mb-6"></div>
                         <ul class="space-y-3 text-gray-200 text-sm text-left mb-10">
                             <li class="flex items-center gap-2"><i data-lucide="check"
@@ -283,7 +283,7 @@ include('./components/head.php');
                         </ul>
                         <a href="./contact"
                             class="inline-block w-full text-center py-3 rounded-full bg-brand-gold text-brand-black font-semibold hover:bg-white transition">
-                            Get Started
+                            Schedule a Call →
                         </a>
                     </div>
 
@@ -292,7 +292,7 @@ include('./components/head.php');
                         class="bg-white border border-gray-200 rounded-3xl p-10 shadow-sm hover:shadow-md transition-all duration-300">
                         <h3 class="text-xl font-bold text-brand-black mb-2">Comprehensive</h3>
                         <p class="text-gray-600 mb-6">Rental & self-employment statements included.</p>
-                        <div class="text-4xl font-extrabold text-brand-black mb-1">$0</div>
+                        <div class="text-xl font-semibold text-brand-black mb-1">Schedule a Call to Discuss</div>
                         <div class="h-0.5 w-12 bg-brand-red mx-auto mb-6"></div>
                         <ul class="space-y-3 text-gray-700 text-sm text-left mb-10">
                             <li class="flex items-center gap-2"><i data-lucide="check"
@@ -304,7 +304,7 @@ include('./components/head.php');
                         </ul>
                         <a href="./contact"
                             class="inline-block w-full text-center py-3 rounded-full border border-brand-gold text-brand-gold font-semibold hover:bg-brand-gold hover:text-brand-black transition">
-                            Get Started
+                            Schedule a Call →
                         </a>
                     </div>
                 </div>

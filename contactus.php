@@ -3,7 +3,7 @@
 <?php
 $page_title = "Contact MJRS Associates – Speak with a Tax & Advisory Expert";
 $page_description = "Get in touch with MJRS Associates for structured corporate tax planning, business incorporation, and compliance advisory across Canada.";
-$page_keywords = "Contact MJRS, Tax Advisory Canada, Corporate Accounting Ontario, Business Structuring, MJRS Toronto Office";
+$page_keywords = "Contact MJRS, Tax Advisory Canada, Corporate Accounting Ontario, Business Structuring, MJRS Oakville Office";
 $page_robots = "index, follow";
 $page_url = "https://mjrsassociates.ca/contactus.php";
 $page_image = "https://mjrsassociates.ca/assets/images/og-banner.jpg";
@@ -132,7 +132,7 @@ $page_jsonld = [
                         <p class="flex items-center gap-2">
                             <i data-lucide="phone" class="w-4 h-4 text-brand-red"></i>
                             <span><span class="font-semibold text-brand-black">Office:</span> +1 (905) 460-3756
-                                Ext:201</span>
+                                Ext:206</span>
                         </p>
                         <p class="flex items-center gap-2">
                             <i data-lucide="smartphone" class="w-4 h-4 text-brand-red"></i>
@@ -142,6 +142,19 @@ $page_jsonld = [
                             <i data-lucide="mail" class="w-4 h-4 text-brand-gold"></i>
                             <span><span class="font-semibold text-brand-black">Email:</span>
                                 rimi.sandhu05@gmail.com</span>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="bg-white border border-gray-200 rounded-2xl shadow-md p-8 hover:shadow-lg transition">
+                    <h3 class="text-xl font-bold text-brand-black mb-1 flex items-center gap-2">
+                        <i data-lucide="user" class="w-5 h-5 text-brand-red"></i> Jasmeet Juneja
+                    </h3>
+                    <p class="text-sm text-gray-600 mb-4">CPA</p>
+                    <div class="space-y-3 text-gray-600 text-sm">
+                        <p class="flex items-center gap-2">
+                            <i data-lucide="smartphone" class="w-4 h-4 text-brand-red"></i>
+                            <span><span class="font-semibold text-brand-black">Cell:</span> +1 (647) 460-6865</span>
                         </p>
                     </div>
                 </div>
@@ -196,9 +209,10 @@ $page_jsonld = [
                 <!-- Map -->
                 <div class="rounded-2xl overflow-hidden shadow-md border border-gray-200 h-full">
                     <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2887.89533833065!2d-79.38064488451094!3d43.6425669791214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b34d2c9b1e5b3%3A0xf19c51df7e3bfb20!2s123%20Bay%20St%2C%20Toronto%2C%20ON!5e0!3m2!1sen!2sca!4v1700000000000!5m2!1sen!2sca"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2428.22928469862!2d-79.77970359058924!3d43.634278068006374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b6ad3779656a7%3A0x261ef153bc21c78d!2sMJRS%20Associates!5e0!3m2!1sen!2s!4v1762882576031!5m2!1sen!2s"
                         width="100%" height="100%" style="border:0; min-height: 460px;" allowfullscreen=""
                         loading="lazy"></iframe>
+
                 </div>
             </div>
 
@@ -208,7 +222,7 @@ $page_jsonld = [
                     <i data-lucide="map-pin" class="w-5 h-5 text-brand-gold"></i> Office Location
                 </h4>
                 <p class="text-gray-600">
-                    Toronto, Ontario, Canada<br>
+                    Oakville, Ontario, Canada<br>
                     Monday–Friday: 9AM – 6PM
                 </p>
             </div>

@@ -3,7 +3,7 @@
 <?php
 $page_title = "Accounting – MJRS Associates | Financial Statements & Controls";
 $page_description = "Accounting that turns numbers into decisions: formal financial statements, audit-ready controls, and clear visibility into performance.";
-$page_keywords = "Accounting Toronto, Financial Statements Canada, Cash Flow, Balance Sheet, Income Statement, MJRS Associates";
+$page_keywords = "Accounting Canada, Financial Statements Canada, Cash Flow, Balance Sheet, Income Statement, MJRS Associates";
 $page_robots = "index, follow";
 $page_url = "https://mjrsassociates.ca/single-service/accounting";
 $page_image = "https://mjrsassociates.ca/assets/images/og-banner.jpg";
@@ -204,109 +204,138 @@ include('./components/head.php');
         <section class="relative py-28 bg-white border-t border-gray-200">
             <!-- Background Accent -->
             <div class="absolute inset-0 opacity-[0.3]" style="background-image:
-                linear-gradient(to right, rgba(229,229,229,0.3) 1px, transparent 1px),
-                linear-gradient(to bottom, rgba(229,229,229,0.3) 1px, transparent 1px);
-                background-size: 40px 40px;"></div>
+        linear-gradient(to right, rgba(229,229,229,0.3) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(229,229,229,0.3) 1px, transparent 1px);
+        background-size: 40px 40px;"></div>
             <div class="absolute -top-40 right-0 w-[26rem] h-[26rem] bg-brand-gold/10 rounded-full blur-[160px]"></div>
 
             <div class="relative z-10 max-w-7xl mx-auto px-6 text-center">
-                <h2 class="text-4xl md:text-5xl font-extrabold text-brand-black mb-6">
+                <h2 class="text-4xl md:text-5xl font-extrabold text-brand-black mb-4">
                     Accounting <span class="text-brand-red">Plans</span> That Scale With You
                 </h2>
-                <p class="text-lg md:text-xl text-gray-700 font-light max-w-3xl mx-auto mb-12 leading-relaxed">
-                    Pick a monthly cadence and switch to annual any time. Statements you can run the business on.
+                <p class="text-lg md:text-xl text-gray-700 font-light max-w-3xl mx-auto leading-relaxed mb-4">
+                    Flexible. Scalable. Tailored to You.
+                </p>
+                <p class="text-gray-700 max-w-3xl mx-auto mb-12 leading-relaxed">
+                    Every business is unique — and so are its books. Our accounting plans adapt to your transaction
+                    volume,
+                    industry, and reporting needs. Scale services as your business grows — from core bookkeeping to
+                    fully
+                    managed compliance and advisory support. Switch or upgrade anytime. We’ll tailor a plan after
+                    reviewing your
+                    operations during a free consultation.
                 </p>
 
-                <!-- Billing Toggle -->
-                <div class="flex justify-center items-center gap-4 mb-16">
-                    <span class="text-sm font-medium text-gray-700">Monthly</span>
-                    <label class="relative inline-flex items-center cursor-pointer">
-                        <input type="checkbox" id="billingToggle" class="sr-only peer">
-                        <div class="w-11 h-6 bg-gray-300 peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full
-                            after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border
-                            after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-brand-red">
-                        </div>
-                    </label>
-                    <span class="text-sm font-medium text-gray-700">Annual <span
-                            class="text-brand-red text-xs font-semibold ml-1">Save 17%</span></span>
-                </div>
-
-                <!-- Pricing Grid -->
+                <!-- Plans Grid -->
                 <div class="grid md:grid-cols-3 gap-10">
-                    <!-- Essentials -->
+                    <!-- Core Plan -->
                     <div
                         class="bg-white border border-gray-200 rounded-3xl p-10 shadow-sm hover:shadow-md transition-all duration-300">
-                        <h3 class="text-xl font-bold text-brand-black mb-2">Essentials</h3>
-                        <p class="text-gray-600 mb-6">For small teams needing clean, reliable monthly statements.</p>
-                        <div class="text-4xl font-extrabold text-brand-black mb-1 price" data-monthly="0"
-                            data-annual="0">
-                            $0<span class="text-lg font-medium text-gray-500">/month</span>
-                        </div>
+                        <h3 class="text-xl font-bold text-brand-black mb-2">Core Plan</h3>
+                        <p class="text-gray-600 mb-6">For lean operations seeking accurate, reconciled books.</p>
                         <div class="h-0.5 w-12 bg-brand-red mx-auto mb-6"></div>
                         <ul class="space-y-3 text-gray-700 text-sm text-left mb-10">
                             <li class="flex items-center gap-2"><i data-lucide="check"
-                                    class="w-4 h-4 text-brand-gold"></i> Monthly IS & BS</li>
+                                    class="w-4 h-4 text-brand-gold"></i>
+                                Transaction categorization & posting</li>
                             <li class="flex items-center gap-2"><i data-lucide="check"
-                                    class="w-4 h-4 text-brand-gold"></i> Bank/Credit Reconciliations</li>
+                                    class="w-4 h-4 text-brand-gold"></i>
+                                Bank and credit reconciliations</li>
                             <li class="flex items-center gap-2"><i data-lucide="check"
-                                    class="w-4 h-4 text-brand-gold"></i> Basic Accrual Adjustments</li>
+                                    class="w-4 h-4 text-brand-gold"></i>
+                                Month-end closing & reports</li>
+                            <li class="flex items-center gap-2"><i data-lucide="check"
+                                    class="w-4 h-4 text-brand-gold"></i>
+                                Secure digital recordkeeping</li>
+                            <li class="flex items-center gap-2"><i data-lucide="check"
+                                    class="w-4 h-4 text-brand-gold"></i>
+                                Dedicated account representative</li>
                         </ul>
                         <a href="./contact"
                             class="inline-block w-full text-center py-3 rounded-full border border-brand-red text-brand-red font-semibold hover:bg-brand-red hover:text-white transition">
-                            Get Started
+                            Book a Free Consultation →
                         </a>
                     </div>
 
-                    <!-- Growth (Most Popular) -->
+                    <!-- Plus Plan -->
                     <div
                         class="bg-brand-black text-white border-2 border-brand-gold rounded-3xl p-10 shadow-lg relative transform md:-translate-y-3 hover:-translate-y-4 transition-all duration-300">
                         <div
                             class="absolute top-0 right-0 bg-brand-gold text-brand-black text-xs font-semibold px-3 py-1 rounded-bl-xl">
                             Most Popular</div>
-                        <h3 class="text-xl font-bold mb-2 text-brand-gold">Growth</h3>
-                        <p class="text-gray-300 mb-6">For growing companies that need analysis, not just reporting.</p>
-                        <div class="text-4xl font-extrabold text-white mb-1 price" data-monthly="0" data-annual="0">
-                            $0<span class="text-lg font-medium text-gray-400">/month</span>
-                        </div>
+                        <h3 class="text-xl font-bold mb-2 text-brand-gold">Plus Plan</h3>
+                        <p class="text-gray-300 mb-6">For growing businesses that require AR/AP tracking and filing
+                            coordination.</p>
                         <div class="h-0.5 w-12 bg-brand-gold mx-auto mb-6"></div>
                         <ul class="space-y-3 text-gray-200 text-sm text-left mb-10">
                             <li class="flex items-center gap-2"><i data-lucide="check"
-                                    class="w-4 h-4 text-brand-gold"></i> IS, BS & Cash Flow</li>
+                                    class="w-4 h-4 text-brand-gold"></i>
+                                Accounts receivable and payable management</li>
                             <li class="flex items-center gap-2"><i data-lucide="check"
-                                    class="w-4 h-4 text-brand-gold"></i> Variance Analysis & KPI Summary</li>
+                                    class="w-4 h-4 text-brand-gold"></i>
+                                GST/HST coding and coordination</li>
                             <li class="flex items-center gap-2"><i data-lucide="check"
-                                    class="w-4 h-4 text-brand-gold"></i> Month-End Review Call</li>
+                                    class="w-4 h-4 text-brand-gold"></i>
+                                Quarterly compliance review</li>
+                            <li class="flex items-center gap-2"><i data-lucide="check"
+                                    class="w-4 h-4 text-brand-gold"></i>
+                                Monthly change summary & insights</li>
+                            <li class="flex items-center gap-2"><i data-lucide="check"
+                                    class="w-4 h-4 text-brand-gold"></i>
+                                Direct advisor access for financial queries</li>
                         </ul>
-                        <a href="./contact"
+                        <a href="./contactus"
                             class="inline-block w-full text-center py-3 rounded-full bg-brand-gold text-brand-black font-semibold hover:bg-white transition">
-                            Get Started
+                            Book a Free Consultation →
                         </a>
                     </div>
 
-                    <!-- Executive -->
+                    <!-- Complete Plan -->
                     <div
                         class="bg-white border border-gray-200 rounded-3xl p-10 shadow-sm hover:shadow-md transition-all duration-300">
-                        <h3 class="text-xl font-bold text-brand-black mb-2">Executive</h3>
-                        <p class="text-gray-600 mb-6">For enterprises needing audit-ready papers and leadership support.
-                        </p>
-                        <div class="text-4xl font-extrabold text-brand-black mb-1 price" data-monthly="0"
-                            data-annual="0">
-                            $0<span class="text-lg font-medium text-gray-500">/month</span>
-                        </div>
+                        <h3 class="text-xl font-bold text-brand-black mb-2">Complete Plan</h3>
+                        <p class="text-gray-600 mb-6">For corporations and audit-sensitive environments requiring
+                            advanced oversight.</p>
                         <div class="h-0.5 w-12 bg-brand-red mx-auto mb-6"></div>
                         <ul class="space-y-3 text-gray-700 text-sm text-left mb-10">
                             <li class="flex items-center gap-2"><i data-lucide="check"
-                                    class="w-4 h-4 text-brand-gold"></i> Full IS/BS/CF + Schedules</li>
+                                    class="w-4 h-4 text-brand-gold"></i>
+                                Receipt capture & archiving</li>
                             <li class="flex items-center gap-2"><i data-lucide="check"
-                                    class="w-4 h-4 text-brand-gold"></i> Year-End Working Papers</li>
+                                    class="w-4 h-4 text-brand-gold"></i>
+                                Complex reconciliations across accounts</li>
                             <li class="flex items-center gap-2"><i data-lucide="check"
-                                    class="w-4 h-4 text-brand-gold"></i> Control Guidance & CRA-Ready Trail</li>
+                                    class="w-4 h-4 text-brand-gold"></i>
+                                CRA-ready documentation & audit trail</li>
+                            <li class="flex items-center gap-2"><i data-lucide="check"
+                                    class="w-4 h-4 text-brand-gold"></i>
+                                Integrated payroll, WSIB & HST filings</li>
+                            <li class="flex items-center gap-2"><i data-lucide="check"
+                                    class="w-4 h-4 text-brand-gold"></i>
+                                Optional advisory & year-end prep</li>
                         </ul>
-                        <a href="./contact"
+                        <a href="./contactus"
                             class="inline-block w-full text-center py-3 rounded-full border border-brand-gold text-brand-gold font-semibold hover:bg-brand-gold hover:text-brand-black transition">
-                            Get Started
+                            Book a Free Consultation →
                         </a>
                     </div>
+                </div>
+
+                <!-- Final CTA -->
+                <div class="mt-16 text-center max-w-3xl mx-auto">
+                    <h3 class="text-2xl font-bold text-brand-black mb-3">Not Sure Which Plan Fits?</h3>
+                    <p class="text-gray-700 text-lg mb-4">Let’s discuss your operations and customize a solution that
+                        keeps your books accurate, compliant, and ready for growth.</p>
+                    <p class="font-medium text-brand-black flex items-center justify-center gap-3 mb-6">
+                        <i data-lucide="phone" class="w-5 h-5 text-brand-red"></i> (647) 888-0883
+                        <span class="text-gray-400">|</span>
+                        <i data-lucide="mail" class="w-5 h-5 text-brand-red"></i> info@mjrsassociates.ca
+                    </p>
+
+                    <a href="./contactus"
+                        class="inline-block px-8 py-3 rounded-full border border-brand-red text-brand-red font-semibold hover:bg-brand-red hover:text-white transition">
+                        Schedule Your Consultation →
+                    </a>
                 </div>
             </div>
         </section>

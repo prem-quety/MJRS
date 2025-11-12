@@ -275,12 +275,11 @@ $page_jsonld = [
                 <div class="grid md:grid-cols-3 gap-8">
 
                     <!-- Feature 1 -->
-                    <div class="md:col-span-2 bg-white border border-gray-200 rounded-3xl p-10 shadow-md hover:shadow-lg transition-all duration-300 fade-up"
+                    <div class="bg-white border border-gray-200 rounded-3xl p-10 shadow-md hover:shadow-lg transition-all duration-300 fade-up"
                         style="animation-delay: 0.5s;">
                         <div class="flex flex-col items-start gap-5">
                             <div
                                 class="flex-shrink-0 w-14 h-14 flex items-center justify-center rounded-xl bg-brand-red/10 text-brand-red border border-brand-red/20">
-                                <!-- Lucide: FileText -->
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none"
                                     stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                     stroke-linejoin="round">
@@ -290,33 +289,30 @@ $page_jsonld = [
                                     <line x1="16" y1="17" x2="8" y2="17" />
                                 </svg>
                             </div>
-                            <div>
-                                <h3 class="text-2xl font-semibold text-brand-black mb-3">Corporate Tax Architecture</h3>
-                                <p class="text-gray-600 leading-relaxed">
-                                    Full-spectrum tax design that optimizes entity flow, dividend distribution, and
-                                    fiscal-year strategy.
-                                    Built for liquidity efficiency, CRA accuracy, and audit-proof governance.
-                                </p>
-                            </div>
+                            <h3 class="text-2xl font-semibold text-brand-black ">Corporate Tax Architecture</h3>
+                            <p class="text-gray-600 leading-relaxed text-base">
+                                Full-spectrum tax design that optimizes entity flow, dividend distribution, and
+                                fiscal-year strategy. Built for liquidity efficiency, CRA accuracy, and audit-proof
+                                governance.
+                            </p>
                         </div>
                     </div>
 
                     <!-- Feature 2 -->
                     <div class="bg-white border border-gray-200 rounded-3xl p-10 shadow-md hover:shadow-lg transition-all duration-300 fade-up"
                         style="animation-delay: 0.6s;">
-                        <div class="flex flex-col items-start text-left">
+                        <div class="flex flex-col items-start gap-5">
                             <div
-                                class="w-12 h-12 mb-4 flex items-center justify-center rounded-full bg-brand-gold/10 text-brand-gold border border-brand-gold/20">
-                                <!-- Lucide: Briefcase -->
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
+                                class="w-14 h-14 flex items-center justify-center rounded-xl bg-brand-gold/10 text-brand-gold border border-brand-gold/20">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none"
                                     stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                     stroke-linejoin="round">
                                     <rect x="2" y="7" width="20" height="14" rx="2" ry="2" />
                                     <path d="M16 7V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v2" />
                                 </svg>
                             </div>
-                            <h3 class="text-xl font-semibold text-brand-black mb-3">Business Incorporation</h3>
-                            <p class="text-gray-600 leading-relaxed text-sm">
+                            <h3 class="text-2xl font-semibold text-brand-black ">Business Incorporation</h3>
+                            <p class="text-gray-600 leading-relaxed text-base">
                                 Structuring incorporations with shareholder flexibility, compliance automation,
                                 and CRA registration workflows fully integrated into corporate policy systems.
                             </p>
@@ -326,75 +322,74 @@ $page_jsonld = [
                     <!-- Feature 3 -->
                     <div class="bg-white border border-gray-200 rounded-3xl p-10 shadow-md hover:shadow-lg transition-all duration-300 fade-up"
                         style="animation-delay: 0.7s;">
-                        <div class="flex flex-col items-start text-left">
+                        <div class="flex flex-col items-start gap-5">
                             <div
-                                class="w-12 h-12 mb-4 flex items-center justify-center rounded-full bg-brand-black/10 text-brand-black border border-brand-black/20">
-                                <!-- Lucide: PieChart -->
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
+                                class="w-14 h-14 flex items-center justify-center rounded-xl bg-brand-black/10 text-brand-black border border-brand-black/20">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none"
                                     stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                     stroke-linejoin="round">
                                     <path d="M21.21 15.89A10 10 0 1112 2v10h10a9.99 9.99 0 01-.79 3.89z" />
                                 </svg>
                             </div>
-                            <h3 class="text-xl font-semibold text-brand-black mb-3">Management Accounting</h3>
-                            <p class="text-gray-600 leading-relaxed text-sm">
-                                Monthly and quarterly analytics integrated with variance analysis,
-                                KPI reporting, and capital utilization metrics for data-backed leadership decisions.
+                            <h3 class="text-2xl font-semibold text-brand-black ">Management Accounting</h3>
+                            <p class="text-gray-600 leading-relaxed text-base">
+                                Monthly and quarterly analytics integrated with variance analysis, KPI reporting, and
+                                capital utilization metrics for data-backed leadership decisions.
                             </p>
                         </div>
                     </div>
 
-                    <!-- Feature 4 -->
-                    <div class="md:col-span-2 bg-white border border-gray-200 rounded-3xl p-10 shadow-md hover:shadow-lg transition-all duration-300 fade-up"
-                        style="animation-delay: 0.8s;">
-                        <div class="flex flex-col items-start gap-5">
-                            <div
-                                class="flex-shrink-0 w-14 h-14 flex items-center justify-center rounded-xl bg-brand-gold/10 text-brand-gold border border-brand-gold/20">
-                                <!-- Lucide: Globe -->
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none"
-                                    stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                    stroke-linejoin="round">
-                                    <circle cx="12" cy="12" r="10" />
-                                    <line x1="2" y1="12" x2="22" y2="12" />
-                                    <path d="M12 2a15.3 15.3 0 010 20a15.3 15.3 0 010-20z" />
-                                </svg>
-                            </div>
-                            <div>
-                                <h3 class="text-2xl font-semibold text-brand-black mb-3">Cross-Border Taxation</h3>
-                                <p class="text-gray-600 leading-relaxed">
+                    <!-- Feature 4 and 5 (two equal cards on 2nd row) -->
+                    <div class="md:col-span-3 grid md:grid-cols-2 gap-8">
+                        <!-- Feature 4 -->
+                        <div class="bg-white border border-gray-200 rounded-3xl p-10 shadow-md hover:shadow-lg transition-all duration-300 fade-up"
+                            style="animation-delay: 0.8s;">
+                            <div class="flex flex-col items-start gap-5">
+                                <div
+                                    class="w-14 h-14 flex items-center justify-center rounded-xl bg-brand-gold/10 text-brand-gold border border-brand-gold/20">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none"
+                                        stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <circle cx="12" cy="12" r="10" />
+                                        <line x1="2" y1="12" x2="22" y2="12" />
+                                        <path d="M12 2a15.3 15.3 0 010 20a15.3 15.3 0 010-20z" />
+                                    </svg>
+                                </div>
+                                <h3 class="text-2xl font-semibold text-brand-black ">Cross-Border Taxation</h3>
+                                <p class="text-gray-600 leading-relaxed text-base">
                                     Advisory for multinational entities and dual-residency businesses,
                                     ensuring compliance with CRA and IRS frameworks under unified documentation
                                     standards.
                                 </p>
                             </div>
                         </div>
-                    </div>
 
-                    <!-- Feature 5 -->
-                    <div class="bg-white border border-gray-200 rounded-3xl p-10 shadow-md hover:shadow-lg transition-all duration-300 fade-up"
-                        style="animation-delay: 0.9s;">
-                        <div class="flex flex-col items-start text-left">
-                            <div
-                                class="w-12 h-12 mb-4 flex items-center justify-center rounded-full bg-brand-red/10 text-brand-red border border-brand-red/20">
-                                <!-- Lucide: BarChart3 -->
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
-                                    stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                    stroke-linejoin="round">
-                                    <path d="M3 3v18h18" />
-                                    <rect x="7" y="8" width="3" height="8" rx="1" />
-                                    <rect x="12" y="5" width="3" height="11" rx="1" />
-                                    <rect x="17" y="10" width="3" height="6" rx="1" />
-                                </svg>
+                        <!-- Feature 5 -->
+                        <div class="bg-white border border-gray-200 rounded-3xl p-10 shadow-md hover:shadow-lg transition-all duration-300 fade-up"
+                            style="animation-delay: 0.9s;">
+                            <div class="flex flex-col items-start gap-5">
+                                <div
+                                    class="w-14 h-14 flex items-center justify-center rounded-xl bg-brand-red/10 text-brand-red border border-brand-red/20">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none"
+                                        stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M3 3v18h18" />
+                                        <rect x="7" y="8" width="3" height="8" rx="1" />
+                                        <rect x="12" y="5" width="3" height="11" rx="1" />
+                                        <rect x="17" y="10" width="3" height="6" rx="1" />
+                                    </svg>
+                                </div>
+                                <h3 class="text-2xl font-semibold text-brand-black ">Advisory & Forecasting</h3>
+                                <p class="text-gray-600 leading-relaxed text-base">
+                                    Predictive modeling for revenue forecasting, risk control, and M&A evaluation,
+                                    designed to give leadership a data advantage in every decision cycle.
+                                </p>
                             </div>
-                            <h3 class="text-xl font-semibold text-brand-black mb-3">Advisory & Forecasting</h3>
-                            <p class="text-gray-600 leading-relaxed text-sm">
-                                Predictive modeling for revenue forecasting, risk control, and M&A evaluation,
-                                designed to give leadership a data advantage in every decision cycle.
-                            </p>
                         </div>
                     </div>
-
                 </div>
+
+
             </div>
         </section>
 

@@ -38,7 +38,9 @@
     <link rel="icon" type="image/png" href="/assets/images/favicon.png" />
 
     <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600;700&family=Michroma&family=Nunito:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
 
     <!-- Tailwind -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -47,8 +49,9 @@
             theme: {
                 extend: {
                     fontFamily: {
-                        heading: ['Inter', 'sans-serif'],
-                        body: ['Inter', 'sans-serif'],
+                        heading: ['Rajdhani', 'sans-serif'], // Matches "ASSOCIATES" font style
+                        logo: ['Michroma', 'sans-serif'],    // For "MJRS" text or brand marks
+                        body: ['Nunito', 'sans-serif'],      // For general body content
                     },
                     colors: {
                         brand: {
@@ -61,6 +64,8 @@
             }
         }
     </script>
+
+
     <!-- Lucide Icons -->
     <script src="https://unpkg.com/lucide@latest"></script>
     <script>
@@ -91,7 +96,23 @@
             opacity: 0;
             animation: fadeUp 1s ease-out forwards;
         }
+
+        /* Apply heading font globally */
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: 'Rajdhani', sans-serif;
+        }
+
+        /* Optional: ensure body text uses your body font */
+        body {
+            font-family: 'Nunito', sans-serif;
+        }
     </style>
+
 
     <!-- Google Tag Manager (placeholder) -->
     <?php if (!empty($GTM_ID)): ?>
@@ -111,13 +132,13 @@
         <?php if (is_array($page_jsonld)): ?>
             <?php foreach ($page_jsonld as $json): ?>
                 <script type="application/ld+json">
-                                                                                            <?= is_array($json) ? json_encode($json, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT) : $json ?>
-                                                                                        </script>
+                                                                                                                                                                                                                                                        <?= is_array($json) ? json_encode($json, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT) : $json ?>
+                                                                                                                                                                                                                                                    </script>
             <?php endforeach; ?>
         <?php else: ?>
             <script type="application/ld+json">
-                                                                <?= is_array($page_jsonld) ? json_encode($page_jsonld, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT) : $page_jsonld ?>
-                                                            </script>
+                                                                                                                                                                        <?= is_array($page_jsonld) ? json_encode($page_jsonld, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT) : $page_jsonld ?>
+                                                                                                                                                                    </script>
         <?php endif; ?>
     <?php endif; ?>
 </head>

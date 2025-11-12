@@ -63,13 +63,13 @@
         <div>
             <h4 class="text-white font-semibold mb-4 text-lg">Contact</h4>
             <ul class="text-sm space-y-2">
-                <li class="text-gray-400">Toronto, Ontario, Canada</li>
+                <li class="text-gray-400">Oakville, Ontario, Canada</li>
                 <li><a href="mailto:info@mjrsassociates.ca"
                         class="text-brand-gold hover:underline">info@mjrsassociates.ca</a></li>
-                <li><a href="tel:+16478880883" class="hover:text-brand-gold transition">+1 (647) 888-0883</a>
-                </li>
-                <li><a href="tel:+16474648624" class="hover:text-brand-gold transition">+1 (647) 464-8624</a>
-                </li>
+                <li><a href="tel:+16478880883" class="hover:text-brand-gold transition">+1 (647) 888-0883</a></li>
+                <li><a href="tel:+16474648624" class="hover:text-brand-gold transition">+1 (647) 464-8624</a></li>
+                <li><a href="tel:+16474606865" class="hover:text-brand-gold transition">+1 (647) 460-6865</a></li>
+
             </ul>
             <div class="flex items-center gap-4 mt-5">
                 <!-- Lucide: Linkedin -->
@@ -96,12 +96,25 @@
     </div>
 
     <!-- Bottom Bar -->
-    <div class="relative z-10 mt-16 border-t border-gray-800 pt-6 text-center text-sm text-gray-500">
-        <p>© <span id="year"></span> MJRS Associates. All Rights Reserved.</p>
-        <p>Powered by <a class="text-orange-600" href="https://querytel.com/">Querytel Inc.</a> </p>
+    <div class="relative z-10 mt-16 border-t border-gray-800 pt-6 text-center text-sm text-gray-400 space-y-2">
+
+        <p class="text-gray-300 font-medium tracking-wide">
+            MJRS Associates <span class="text-brand-gold">CPA & Consultants</span>
+        </p>
+
+        <p class="text-gray-400">
+            Professional Accounting • Bookkeeping • Payroll • Advisory • Oakville, ON — Serving Canada-Wide
+        </p>
+
+        <p class="text-gray-500 text-xs mt-2">
+            © <span id="year"></span> MJRS Associates. All Rights Reserved.
+            <span class="ml-1">Powered by <a class="text-orange-600 hover:underline"
+                    href="https://querytel.com/">Querytel Inc.</a></span>
+        </p>
     </div>
 
     <script>
         document.getElementById('year').textContent = new Date().getFullYear();
     </script>
+
 </footer>

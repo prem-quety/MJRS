@@ -130,115 +130,213 @@ include('./components/head.php');
                 </aside>
 
                 <!-- Main Story -->
-                <article class="md:col-span-2 space-y-12">
+                <article class="md:col-span-2 space-y-14">
 
                     <!-- Header -->
                     <header>
-                        <h1 class="text-3xl md:text-4xl font-extrabold text-brand-black mb-4">
-                            Business Advisory / Consulting
+                        <h1 class="text-4xl md:text-5xl font-extrabold text-brand-black mb-3 tracking-tight">
+                            Financial & Strategic Advisory for Sustainable Growth
                         </h1>
+                        <p class="text-xl text-brand-red font-semibold mb-3">
+                            Data-driven insight. Forward-thinking solutions.
+                        </p>
                         <p class="text-lg text-gray-700 leading-relaxed max-w-3xl">
-                            We help you make the next right move—whether it's pricing, hiring, capital, product, or
-                            operations—using clear financial logic and a cadence that your team can run every month.
+                            At MJRS Associates, we provide more than advice — we deliver clarity, control, and
+                            confidence. Our advisory
+                            practice helps business leaders align financial systems with strategic objectives, optimize
+                            performance, and
+                            prepare for long-term growth or transition. Whether you’re scaling, restructuring, or
+                            planning succession, our
+                            role is to ensure every decision is informed by precision and foresight.
                         </p>
                     </header>
 
                     <!-- Image -->
                     <figure class="rounded-2xl overflow-hidden border border-gray-200 shadow-sm">
-                        <img src="./assets/images/corporate.webp" alt="Business Advisory" class="w-full object-cover">
+                        <img src="./assets/images/Picture3.jpg" alt="Financial & Strategic Advisory"
+                            class="w-full object-cover">
                     </figure>
 
-                    <!-- Narrative -->
-                    <div class="space-y-6 text-gray-700 text-lg leading-relaxed">
-                        <p>
-                            Growth stalls when the story is fuzzy. We create a single source of truth for your numbers,
-                            align it to your goals, and turn it into a simple operating rhythm: review, decide, execute.
-                        </p>
-                        <p>
-                            Advisory isn’t a deck. It’s the discipline of asking the right questions, finding the
-                            signal, and committing to actions that compound. We stay close enough to help you
-                            execute—and far enough to keep perspective.
-                        </p>
-                        <p>
-                            The result: fewer reactive meetings, tighter cash control, and a team that knows what “good”
-                            looks like—because it’s on one page.
-                        </p>
-                    </div>
-
-                    <!-- Pillars -->
-                    <div class="grid md:grid-cols-3 gap-6">
-                        <div class="rounded-2xl border border-gray-200 p-6">
-                            <i data-lucide="bar-chart-3" class="w-6 h-6 text-brand-red mb-3"></i>
-                            <h3 class="font-semibold text-brand-black mb-2">Financial Story</h3>
-                            <p class="text-gray-700 text-base">Revenue, margin, and cash framed so decisions are
-                                obvious.</p>
+                    <!-- Core Advisory Capabilities -->
+                    <!-- Core Advisory Capabilities -->
+                    <section class="space-y-6">
+                        <div class="flex items-center gap-3 mb-4">
+                            <i data-lucide="bar-chart-3" class="icon-base text-brand-red"></i>
+                            <h2 class="text-3xl font-bold text-brand-black">Core Advisory Capabilities</h2>
                         </div>
-                        <div class="rounded-2xl border border-gray-200 p-6">
-                            <i data-lucide="settings" class="w-6 h-6 text-brand-red mb-3"></i>
-                            <h3 class="font-semibold text-brand-black mb-2">Operating Cadence</h3>
-                            <p class="text-gray-700 text-base">Monthly scorecards and a meeting routine that drives
-                                action.</p>
-                        </div>
-                        <div class="rounded-2xl border border-gray-200 p-6">
-                            <i data-lucide="shield-check" class="w-6 h-6 text-brand-red mb-3"></i>
-                            <h3 class="font-semibold text-brand-black mb-2">Owner Confidence</h3>
-                            <p class="text-gray-700 text-base">Clarity on risk, timelines, and what gets measured.</p>
-                        </div>
-                    </div>
+                        <ul class="space-y-4 text-gray-700 text-[1.05rem] leading-relaxed">
+                            <li class="flex items-start gap-3">
+                                <i data-lucide="check-circle" class="icon-list text-brand-red"></i>
+                                <span><strong class="text-brand-black">Performance Measurement & Financial
+                                        Insight:</strong> We design KPI
+                                    frameworks that give measurable, real-time visibility into performance. Monthly
+                                    analytics and variance
+                                    reviews help you lead with data — not assumption.</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i data-lucide="check-circle" class="icon-list text-brand-red"></i>
+                                <span><strong class="text-brand-black">Budgeting, Forecasting & Cash Flow
+                                        Modelling:</strong> We create
+                                    integrated financial models for decision-making, liquidity control, and long-term
+                                    planning with clear
+                                    identification of risk and opportunity.</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i data-lucide="check-circle" class="icon-list text-brand-red"></i>
+                                <span><strong class="text-brand-black">Operational & Financial System Design:</strong>
+                                    We architect efficient,
+                                    scalable infrastructures — integrating automation, transparency, and audit
+                                    readiness.</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i data-lucide="check-circle" class="icon-list text-brand-red"></i>
+                                <span><strong class="text-brand-black">Growth, Acquisition & Exit Strategy:</strong>
+                                    From expansion to
+                                    succession, we provide valuation insights, tax-aligned structures, and transaction
+                                    support for smooth,
+                                    compliant transitions.</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i data-lucide="check-circle" class="icon-list text-brand-red"></i>
+                                <span><strong class="text-brand-black">Governance, Risk & Compliance Advisory:</strong>
+                                    We establish governance
+                                    frameworks, risk registers, and internal controls that safeguard compliance and
+                                    strengthen investor
+                                    confidence.</span>
+                            </li>
+                        </ul>
+                    </section>
 
-                    <!-- Deliverables -->
-                    <div class="pl-6 border-l-4 border-brand-red space-y-3">
-                        <h3 class="text-2xl font-bold text-brand-black">What You Get</h3>
-                        <p class="text-gray-700 leading-relaxed">
-                            Strategic review and priority map; monthly/quarterly scorecards; pricing and margin levers;
-                            hiring/capex decision support; cash & runway planning; board-ready summaries.
+                    <!-- How MJRS Strengthens Your Organization -->
+                    <section class="space-y-6 mt-12">
+                        <div class="flex items-center gap-3 mb-4">
+                            <i data-lucide="shield-check" class="icon-base text-brand-red"></i>
+                            <h2 class="text-3xl font-bold text-brand-black">How MJRS Strengthens Your Organization</h2>
+                        </div>
+                        <ul class="space-y-4 text-gray-700 text-[1.05rem] leading-relaxed">
+                            <li class="flex items-start gap-3">
+                                <i data-lucide="arrow-right-circle" class="icon-list text-brand-red"></i>
+                                <span><strong class="text-brand-black">Insight-Driven Decisions:</strong> We transform
+                                    complex data into actionable
+                                    intelligence for executives and boards.</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i data-lucide="arrow-right-circle" class="icon-list text-brand-red"></i>
+                                <span><strong class="text-brand-black">Tailored Solutions:</strong> Every engagement is
+                                    customized to your
+                                    structure, scale, and industry.</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i data-lucide="arrow-right-circle" class="icon-list text-brand-red"></i>
+                                <span><strong class="text-brand-black">End-to-End Integration:</strong> Advisory that
+                                    connects bookkeeping, tax,
+                                    compliance, and operational excellence.</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i data-lucide="arrow-right-circle" class="icon-list text-brand-red"></i>
+                                <span><strong class="text-brand-black">Technology-Enabled Oversight:</strong>
+                                    Cloud-based analytics and secure data
+                                    systems for visibility and control.</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i data-lucide="arrow-right-circle" class="icon-list text-brand-red"></i>
+                                <span><strong class="text-brand-black">Experienced Professionals:</strong>
+                                    Multi-disciplinary experts with deep
+                                    experience in finance, compliance, and strategic planning.</span>
+                            </li>
+                        </ul>
+                    </section>
+
+                    <!-- Add this to your global <style> or Tailwind layer -->
+                    <style>
+                        .icon-base {
+                            width: 1.4rem;
+                            /* ~22px */
+                            height: 1.4rem;
+                            flex-shrink: 0;
+                            position: relative;
+                            top: 0.05rem;
+                        }
+
+                        .icon-list {
+                            width: 1.25rem;
+                            /* ~20px */
+                            height: 1.25rem;
+                            flex-shrink: 0;
+                            position: relative;
+                            top: 0.15rem;
+                        }
+                    </style>
+
+
+                    <!-- Strategic Advantage -->
+                    <section class="space-y-6 mt-12">
+                        <div class="flex items-center gap-2 mb-4">
+                            <i data-lucide="compass" class="w-6 h-6 text-brand-red"></i>
+                            <h2 class="text-3xl font-bold text-brand-black">Strategic Advantage</h2>
+                        </div>
+                        <p class="text-gray-700 text-lg leading-relaxed max-w-3xl">
+                            Partnering with MJRS Associates means gaining a long-term ally in your organization’s growth
+                            and governance.
+                            We bring the structure of accounting, the precision of compliance, and the foresight of
+                            strategic advisory —
+                            ensuring every decision you make is defensible, data-driven, and forward-focused.
                         </p>
-                    </div>
+                    </section>
 
-                    <!-- Mini FAQ -->
-                    <div class="space-y-4">
-                        <h3 class="text-2xl font-bold text-brand-black">Quick Answers</h3>
-                        <details
-                            class="group bg-white border border-gray-200 rounded-xl p-5 hover:shadow-sm transition">
-                            <summary class="flex items-center justify-between cursor-pointer list-none">
-                                <span class="font-medium text-brand-black">Do you work alongside our accountant or
-                                    CFO?</span>
-                                <i data-lucide="chevron-down"
-                                    class="w-4 h-4 text-gray-500 group-open:rotate-180 transition-transform"></i>
-                            </summary>
-                            <div class="mt-3 text-gray-700">
-                                Yes—advisory integrates with your existing team. We make their work easier and faster.
-                            </div>
-                        </details>
-                        <details
-                            class="group bg-white border border-gray-200 rounded-xl p-5 hover:shadow-sm transition">
-                            <summary class="flex items-center justify-between cursor-pointer list-none">
-                                <span class="font-medium text-brand-black">How soon do we see outcomes?</span>
-                                <i data-lucide="chevron-down"
-                                    class="w-4 h-4 text-gray-500 group-open:rotate-180 transition-transform"></i>
-                            </summary>
-                            <div class="mt-3 text-gray-700">
-                                Most clients experience clarity within the first week and measurable operational shifts
-                                by the end of the first quarter.
-                            </div>
-                        </details>
-                    </div>
+                    <!-- Who We Partner With -->
+                    <section class="space-y-6 mt-12">
+                        <div class="flex items-center gap-2 mb-4">
+                            <i data-lucide="users" class="w-6 h-6 text-brand-red"></i>
+                            <h2 class="text-3xl font-bold text-brand-black">Who We Partner With</h2>
+                        </div>
+                        <ul class="grid sm:grid-cols-2 gap-y-2 text-gray-700 text-[1.05rem]">
+                            <li class="flex items-center gap-2"><i data-lucide="dot"
+                                    class="w-4 h-4 text-brand-red"></i>Owner-managed and
+                                mid-sized corporations</li>
+                            <li class="flex items-center gap-2"><i data-lucide="dot"
+                                    class="w-4 h-4 text-brand-red"></i>Professional service
+                                firms</li>
+                            <li class="flex items-center gap-2"><i data-lucide="dot"
+                                    class="w-4 h-4 text-brand-red"></i>Construction, trade,
+                                and logistics companies</li>
+                            <li class="flex items-center gap-2"><i data-lucide="dot"
+                                    class="w-4 h-4 text-brand-red"></i>Real estate and
+                                investment groups</li>
+                            <li class="flex items-center gap-2"><i data-lucide="dot"
+                                    class="w-4 h-4 text-brand-red"></i>Non-profit and
+                                community organizations</li>
+                            <li class="flex items-center gap-2"><i data-lucide="dot"
+                                    class="w-4 h-4 text-brand-red"></i>Startups scaling to
+                                the next stage of growth</li>
+                        </ul>
+                    </section>
 
-                    <!-- CTA Panel -->
-                    <div class="bg-gray-50 rounded-2xl p-8 border border-gray-200">
-                        <p class="text-brand-black font-semibold text-lg mb-2">Ready to move from “busy” to
-                            “productive”?</p>
-                        <p class="text-gray-700 mb-6">
-                            Let’s define the one-page story, the three levers that matter, and the cadence that keeps
-                            you ahead.
+                    <!-- Begin Your Strategic Transformation -->
+                    <section class="bg-gray-50 rounded-2xl p-10 border border-gray-200 text-center mt-14">
+                        <div class="flex items-center justify-center gap-2 mb-4">
+                            <i data-lucide="sparkles" class="w-6 h-6 text-brand-red"></i>
+                            <h2 class="text-3xl font-bold text-brand-black">Begin Your Strategic Transformation</h2>
+                        </div>
+                        <p class="text-gray-700 text-lg mb-6 max-w-2xl mx-auto">
+                            Ready to align your financial systems with strategy and create a roadmap for sustainable
+                            success?
+                            Schedule a confidential discussion with our advisory team today.
+                        </p>
+                        <p class="font-medium text-brand-black flex items-center justify-center gap-3 mb-6">
+                            <i data-lucide="phone" class="w-5 h-5 text-brand-red"></i> (647) 888-0883
+                            <span class="text-gray-400">|</span>
+                            <i data-lucide="mail" class="w-5 h-5 text-brand-red"></i> info@mjrsassociates.ca
                         </p>
                         <a href="./contact"
-                            class="inline-flex items-center px-6 py-3 rounded-full bg-brand-red text-white font-semibold hover:bg-brand-black transition">
-                            <i data-lucide="calendar" class="w-4 h-4 mr-2"></i> Book a Consultation
+                            class="inline-block px-10 py-3 rounded-full border border-brand-red text-brand-red font-semibold hover:bg-brand-red hover:text-white transition">
+                            Schedule a Strategic Consultation →
                         </a>
-                    </div>
+                    </section>
 
                 </article>
+
+
             </div>
         </section>
 
