@@ -34,10 +34,11 @@ include('./components/head.php');
 
             <!-- Copy -->
             <div class="relative z-10 max-w-4xl px-6 text-center text-white">
-                <span class="fade-up inline-block mb-4 px-4 py-1 rounded-full text-xs font-medium tracking-wide
-                bg-white/10 text-white border border-white/20 backdrop-blur-sm" style="animation-delay:.2s">
+                <span class="fade-up inline-block mb-4 px-5 py-2 rounded-full text-sm font-medium tracking-wide
+    bg-white/10 text-white border border-white/20 backdrop-blur-sm" style="animation-delay:.2s">
                     Payroll Services
                 </span>
+
 
                 <h1 class="fade-up text-5xl md:text-7xl font-extrabold tracking-tight leading-[1.05]"
                     style="animation-delay:.5s">
@@ -121,7 +122,7 @@ include('./components/head.php');
                             We migrate your staff data,<br><span class="text-brand-gold">then run your first pay
                                 cycle.</span>
                         </h4>
-                        <a href="./contact"
+                        <a href="./contactus"
                             class="inline-block border border-brand-gold text-brand-gold px-6 py-2 rounded-full text-sm font-semibold hover:bg-brand-gold hover:text-brand-black transition">
                             Get a Payroll Quote
                         </a>
@@ -230,7 +231,7 @@ include('./components/head.php');
                             We’ll map your pay rules, stand up controls, and run a clean first cycle—without disrupting
                             operations.
                         </p>
-                        <a href="./contact"
+                        <a href="./contactus"
                             class="inline-flex items-center px-6 py-3 rounded-full bg-brand-red text-white font-semibold hover:bg-brand-black transition">
                             <i data-lucide="calendar" class="w-4 h-4 mr-2"></i> Start Onboarding
                         </a>

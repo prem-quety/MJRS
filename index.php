@@ -16,9 +16,9 @@ $page_jsonld = [
         "name" => "MJRS Associates",
         "url" => "https://mjrsassociates.ca",
         "logo" => "https://mjrsassociates.ca/assets/images/mjrs-logo-light.svg",
-        "sameAs" => [
-            "https://www.linkedin.com/company/mjrsassociates/"
-        ],
+        // "sameAs" => [
+        //     "https://www.linkedin.com/company/mjrsassociates/"
+        // ],
         "description" => "A financial engineering and advisory firm specializing in corporate tax, compliance, and cross-border financial structuring for Canadian businesses."
     ],
     [
@@ -66,10 +66,11 @@ $page_jsonld = [
 
             <!-- Content -->
             <div class="relative z-10 max-w-5xl px-6 text-center">
-                <span class="fade-up inline-block mb-4 px-4 py-1 rounded-full text-xs font-medium tracking-wide
+                <span class="fade-up inline-block mb-4 px-5 py-2 rounded-full text-sm font-medium tracking-wide
       bg-brand-red/10 text-brand-red border border-brand-red/20" style="animation-delay: 0.2s">
                     Trusted Corporate & Tax Advisors
                 </span>
+
                 <h1 class="fade-up font-heading text-5xl md:text-7xl font-extrabold tracking-tight leading-[1.05] text-brand-black"
                     style="animation-delay: 0.5s">
                     Elevating <span class="text-brand-red">Businesses</span><br />
@@ -85,7 +86,7 @@ $page_jsonld = [
         hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-red-300">
                         Get Started
                     </a>
-                    <a href="#contact" class="inline-flex items-center rounded-md border border-gray-300 bg-white px-6 py-2 text-sm font-medium text-brand-black
+                    <a href="./contactus" class="inline-flex items-center rounded-md border border-gray-300 bg-white px-6 py-2 text-sm font-medium text-brand-black
         hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-gray-200">
                         Contact Us
                     </a>

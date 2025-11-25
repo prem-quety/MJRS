@@ -36,13 +36,14 @@ $page_jsonld = [
             class="relative min-h-[70vh] flex items-center justify-center overflow-hidden border-b border-gray-200">
             <!-- animated wireframe background -->
             <div class="absolute inset-0 pointer-events-none" aria-hidden="true" style="
-        background-image:
-          linear-gradient(to right, rgba(212,175,55,0.08) 1px, transparent 1px),
-          linear-gradient(to bottom, rgba(212,175,55,0.06) 1px, transparent 1px);
-        background-size: 48px 48px;
-        mask-image: radial-gradient(ellipse at center, black 40%, transparent 80%);
-        animation: gridShift 18s linear infinite alternate;
-      ">
+  background-image:
+    linear-gradient(to right, rgba(212,175,55,0.35) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(212,175,55,0.32) 1px, transparent 1px);
+  background-size: 48px 48px;
+  mask-image: radial-gradient(ellipse at center, black 40%, transparent 80%);
+  animation: gridShift 18s linear infinite alternate;
+"></div>
+
             </div>
             <div class="absolute -top-40 -left-40 w-[32rem] h-[32rem] bg-brand-red/10 rounded-full blur-[200px]"></div>
             <div class="absolute -bottom-40 -right-40 w-[32rem] h-[32rem] bg-brand-gold/10 rounded-full blur-[220px]">
@@ -93,12 +94,13 @@ $page_jsonld = [
                     <!-- Each column is a flex item that can expand; inside, a tile with content -->
                     <?php
                     $services = [
-                        ["title" => "Accounting", "desc" => "Precision reporting for clarity and control.", "icon" => "file-text", "color" => "red"],
-                        ["title" => "Bookkeeping", "desc" => "Every transaction engineered for traceability.", "icon" => "book", "color" => "gold"],
-                        ["title" => "Tax Structuring", "desc" => "From compliance to optimization — built-in.", "icon" => "layers", "color" => "red"],
-                        ["title" => "Advisory", "desc" => "Financial intelligence embedded in decisions.", "icon" => "target", "color" => "black"],
-                        ["title" => "Payroll Systems", "desc" => "Scalable, compliant, automated payroll flows.", "icon" => "users", "color" => "gold"],
+                        ["title" => "Accounting", "url" => "./accounting", "desc" => "Precision reporting for clarity and control.", "icon" => "file-text", "color" => "red"],
+                        ["title" => "Bookkeeping", "url" => "./bookkeeping", "desc" => "Every transaction engineered for traceability.", "icon" => "book", "color" => "gold"],
+                        ["title" => "Tax Structuring", "url" => "./tax-corporate", "desc" => "From compliance to optimization — built-in.", "icon" => "layers", "color" => "red"],
+                        ["title" => "Advisory", "url" => "./advisory", "desc" => "Financial intelligence embedded in decisions.", "icon" => "target", "color" => "black"],
+                        ["title" => "Payroll Systems", "url" => "./payroll", "desc" => "Scalable, compliant, automated payroll flows.", "icon" => "users", "color" => "gold"],
                     ];
+
                     foreach ($services as $idx => $s):
                         $brand = [
                             "red" => "text-brand-red bg-brand-red/10 border-brand-red/20",
@@ -108,9 +110,10 @@ $page_jsonld = [
                         ?>
                         <div
                             class="service-col basis-full md:basis-1/5 flex-1 transition-[flex-basis] duration-500 ease-out">
-                            <button
-                                class="service-tile group relative w-full h-full rounded-2xl border border-gray-200 shadow-sm overflow-hidden bg-white p-6 text-left focus:outline-none focus:ring-2 focus:ring-brand-red"
+                            <a href="<?= $s['url'] ?>"
+                                class="service-tile group relative w-full h-full rounded-2xl border border-gray-200 shadow-sm overflow-hidden bg-white p-6 text-left focus:outline-none focus:ring-2 focus:ring-brand-red block"
                                 data-service="<?= $idx ?>">
+
                                 <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
                                     style="background: radial-gradient(60% 60% at 50% 50%, rgba(224,37,38,0.06), transparent 70%);">
                                 </div>
@@ -130,7 +133,7 @@ $page_jsonld = [
                                         Learn more <i data-lucide="arrow-right" class="w-4 h-4"></i>
                                     </div>
                                 </div>
-                            </button>
+                            </a>
                         </div>
                     <?php endforeach; ?>
                 </div>
@@ -145,12 +148,43 @@ $page_jsonld = [
                     class="flex flex-nowrap items-stretch gap-8 h-full px-6 lg:px-10 will-change-transform items-center">
                     <?php
                     $panels = [
-                        ["title" => "Accounting", "kicker" => "Data is strategy.", "icon" => "bar-chart-3", "body" => "We turn statements into control surfaces — variance clarity, margin integrity, audit-ready reporting."],
-                        ["title" => "Bookkeeping", "kicker" => "Traceability by design.", "icon" => "notebook", "body" => "Transactions map to decisions. Clean ledgers, automated checks, documented flows."],
-                        ["title" => "Tax Structuring", "kicker" => "Structure is leverage.", "icon" => "layers", "body" => "Entity planning, fiscal-year orchestration, and policies aligned to minimize exposure."],
-                        ["title" => "Advisory", "kicker" => "Insight compounds.", "icon" => "lightbulb", "body" => "Modeling, forecasting, and scenario analysis embedded into leadership rhythms."],
-                        ["title" => "Payroll Systems", "kicker" => "Scale without friction.", "icon" => "users", "body" => "Compliant, automated payroll that grows with your org — clean inputs, clean outputs."],
+                        [
+                            "title" => "Accounting",
+                            "kicker" => "Data is strategy.",
+                            "icon" => "bar-chart-3",
+                            "body" => "We turn statements into control surfaces — variance clarity, margin integrity, audit-ready reporting.",
+                            "url" => "./accounting"
+                        ],
+                        [
+                            "title" => "Bookkeeping",
+                            "kicker" => "Traceability by design.",
+                            "icon" => "notebook",
+                            "body" => "Transactions map to decisions. Clean ledgers, automated checks, documented flows.",
+                            "url" => "./bookkeeping"
+                        ],
+                        [
+                            "title" => "Tax Structuring",
+                            "kicker" => "Structure is leverage.",
+                            "icon" => "layers",
+                            "body" => "Entity planning, fiscal-year orchestration, and policies aligned to minimize exposure.",
+                            "url" => "./tax-corporate"
+                        ],
+                        [
+                            "title" => "Advisory",
+                            "kicker" => "Insight compounds.",
+                            "icon" => "lightbulb",
+                            "body" => "Modeling, forecasting, and scenario analysis embedded into leadership rhythms.",
+                            "url" => "./advisory"
+                        ],
+                        [
+                            "title" => "Payroll Systems",
+                            "kicker" => "Scale without friction.",
+                            "icon" => "users",
+                            "body" => "Compliant, automated payroll that grows with your org — clean inputs, clean outputs.",
+                            "url" => "./payroll"
+                        ],
                     ];
+
                     foreach ($panels as $p):
                         ?>
                         <article
@@ -194,10 +228,11 @@ $page_jsonld = [
                                         </div>
                                     </div>
                                     <div class="mt-auto pt-8">
-                                        <a href="#contact-form"
+                                        <a href="<?= $p['url'] ?>"
                                             class="inline-flex items-center gap-2 text-sm font-semibold text-brand-red">
                                             Talk to an advisor <i data-lucide="arrow-right" class="w-4 h-4"></i>
                                         </a>
+
                                     </div>
                                 </div>
                             </div>

@@ -35,10 +35,11 @@ include('./components/head.php');
 
             <!-- Copy -->
             <div class="relative z-10 max-w-4xl px-6 text-center text-white">
-                <span class="fade-up inline-block mb-4 px-4 py-1 rounded-full text-xs font-medium tracking-wide
-                bg-white/10 text-white border border-white/20 backdrop-blur-sm" style="animation-delay:.2s">
+                <span class="fade-up inline-block mb-4 px-5 py-2 rounded-full text-sm font-medium tracking-wide
+    bg-white/10 text-white border border-white/20 backdrop-blur-sm" style="animation-delay:.2s">
                     Business Advisory / Consulting
                 </span>
+
 
                 <h1 class="fade-up text-5xl md:text-7xl font-extrabold tracking-tight leading-[1.05]"
                     style="animation-delay:.5s">
@@ -122,7 +123,7 @@ include('./components/head.php');
                         <h4 class="text-lg font-semibold leading-snug mb-4">
                             30-minute advisory call—<br><span class="text-brand-gold">no jargon, just signal.</span>
                         </h4>
-                        <a href="./contact"
+                        <a href="./contactus"
                             class="inline-block border border-brand-gold text-brand-gold px-6 py-2 rounded-full text-sm font-semibold hover:bg-brand-gold hover:text-brand-black transition">
                             Book Now
                         </a>
@@ -328,7 +329,7 @@ include('./components/head.php');
                             <span class="text-gray-400">|</span>
                             <i data-lucide="mail" class="w-5 h-5 text-brand-red"></i> info@mjrsassociates.ca
                         </p>
-                        <a href="./contact"
+                        <a href="./contactus"
                             class="inline-block px-10 py-3 rounded-full border border-brand-red text-brand-red font-semibold hover:bg-brand-red hover:text-white transition">
                             Schedule a Strategic Consultation →
                         </a>

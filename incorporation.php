@@ -59,10 +59,11 @@ $page_jsonld = [
 
             <!-- Content -->
             <div class="relative z-10 max-w-5xl px-6 text-center text-white">
-                <span class="fade-up inline-block mb-4 px-4 py-1 rounded-full text-xs font-medium tracking-wide
-        bg-white/10 text-brand-gold border border-white/20" style="animation-delay: 0.2s">
+                <span class="fade-up inline-block mb-4 px-5 py-2 rounded-full text-sm font-medium tracking-wide
+    bg-white/10 text-brand-gold border border-white/20" style="animation-delay: 0.2s">
                     Start Your Journey the Right Way
                 </span>
+
 
                 <h1 class="fade-up font-heading text-5xl md:text-7xl font-extrabold tracking-tight leading-[1.05]"
                     style="animation-delay: 0.5s">
@@ -77,11 +78,11 @@ $page_jsonld = [
                 </p>
 
                 <div class="fade-up mt-8 flex flex-wrap justify-center gap-4" style="animation-delay: 1.2s">
-                    <a href="#contact" class="inline-flex items-center rounded-md bg-brand-red px-6 py-2 text-sm font-semibold text-white
+                    <a href="#now" class="inline-flex items-center rounded-md bg-brand-red px-6 py-2 text-sm font-semibold text-white
             hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-red-400">
                         Incorporate Now
                     </a>
-                    <a href="#learn-more" class="inline-flex items-center rounded-md border border-white/30 bg-transparent px-6 py-2 text-sm font-medium text-white
+                    <a href="./about" class="inline-flex items-center rounded-md border border-white/30 bg-transparent px-6 py-2 text-sm font-medium text-white
             hover:bg-white/10 focus:outline-none focus:ring-2 focus:ring-white/20">
                         Learn More
                     </a>
@@ -93,7 +94,8 @@ $page_jsonld = [
 
 
         <!-- OPEN INCORPORATION FORM -->
-        <section class="relative py-28 bg-gradient-to-b from-white to-gray-50 border-t border-gray-200 overflow-hidden">
+        <section class="relative py-28 bg-gradient-to-b from-white to-gray-50 border-t border-gray-200 overflow-hidden"
+            id="now">
             <!-- Glow -->
             <div class="absolute top-0 right-0 w-[28rem] h-[28rem] bg-brand-red/5 rounded-full blur-[200px]"></div>
 

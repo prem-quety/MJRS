@@ -72,15 +72,15 @@
 
             </ul>
             <div class="flex items-center gap-4 mt-5">
-                <!-- Lucide: Linkedin -->
-                <a href="#" aria-label="LinkedIn" class="text-gray-400 hover:text-brand-gold transition">
+                <!-- Lucide: Facebook -->
+                <a href="https://www.facebook.com/profile.php?id=100054524526342" aria-label="Facebook"
+                    class="text-gray-400 hover:text-brand-gold transition" target="_blank" rel="noopener noreferrer">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" stroke="currentColor"
                         stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-4 0v7h-4v-7a6 6 0 016-6z" />
-                        <rect x="2" y="9" width="4" height="12" />
-                        <circle cx="4" cy="4" r="2" />
+                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z" />
                     </svg>
                 </a>
+
                 <!-- Lucide: Mail -->
                 <a href="mailto:info@mjrsassociates.ca" aria-label="Email"
                     class="text-gray-400 hover:text-brand-gold transition">

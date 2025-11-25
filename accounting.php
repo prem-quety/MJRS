@@ -40,10 +40,11 @@ include('./components/head.php');
 
             <!-- Hero Content -->
             <div class="relative z-10 max-w-4xl px-6 text-center text-white">
-                <span class="fade-up inline-block mb-4 px-4 py-1 rounded-full text-xs font-medium tracking-wide
-                    bg-white/10 text-white border border-white/20 backdrop-blur-sm" style="animation-delay: 0.2s">
+                <span class="fade-up inline-block mb-4 px-5 py-2 rounded-full text-sm font-medium tracking-wide
+    bg-white/10 text-white border border-white/20 backdrop-blur-sm" style="animation-delay: 0.2s">
                     Professional Accounting Services
                 </span>
+
 
                 <h1 class="fade-up text-5xl md:text-7xl font-extrabold tracking-tight leading-[1.05]"
                     style="animation-delay: 0.5s">
@@ -132,7 +133,7 @@ include('./components/head.php');
                         <p class="text-xs uppercase tracking-wide text-brand-gold mb-2">Ready to begin?</p>
                         <h4 class="text-lg font-semibold leading-snug mb-4">Build your financial baseline<br><span
                                 class="text-brand-gold">the right way</span></h4>
-                        <a href="./contact"
+                        <a href="./contactus"
                             class="inline-block border border-brand-gold text-brand-gold px-6 py-2 rounded-full text-sm font-semibold hover:bg-brand-gold hover:text-brand-black transition">
                             Book a Consultation
                         </a>
@@ -251,7 +252,7 @@ include('./components/head.php');
                                     class="w-4 h-4 text-brand-gold"></i>
                                 Dedicated account representative</li>
                         </ul>
-                        <a href="./contact"
+                        <a href="./contactus"
                             class="inline-block w-full text-center py-3 rounded-full border border-brand-red text-brand-red font-semibold hover:bg-brand-red hover:text-white transition">
                             Book a Free Consultation →
                         </a>
