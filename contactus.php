@@ -168,7 +168,7 @@ $page_jsonld = [
                         <i data-lucide="mail-open" class="w-6 h-6 text-brand-red"></i> Send Us a Message
                     </h3>
 
-                    <form id="contactForm" action="contact-form-main.php" method="POST" class="space-y-6">
+                    <form id="contactForm" action="contact-form-main" method="POST" class="space-y-6">
 
                         <div>
                             <label for="name" class="block text-sm font-semibold text-brand-black mb-2">Full
@@ -209,7 +209,7 @@ $page_jsonld = [
                 <!-- Map -->
                 <div class="rounded-2xl overflow-hidden shadow-md border border-gray-200 h-full">
                     <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2428.22928469862!2d-79.77970359058924!3d43.634278068006374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b6ad3779656a7%3A0x261ef153bc21c78d!2sMJRS%20Associates!5e0!3m2!1sen!2s!4v1762882576031!5m2!1sen!2s"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2899.6713540159244!2d-79.73610169999999!3d43.3838954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b5e210c04ef7d%3A0x25aaac4ade8b1b1a!2s3465%20Rebecca%20St%20%23207%2C%20Oakville%2C%20ON%20L6L%200H3%2C%20Canada!5e0!3m2!1sen!2s!4v1766498022643!5m2!1sen!2s"
                         width="100%" height="100%" style="border:0; min-height: 460px;" allowfullscreen=""
                         loading="lazy"></iframe>
 

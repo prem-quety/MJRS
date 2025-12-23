@@ -1,4 +1,9 @@
 <?php
+require __DIR__ . '/vendor/autoload.php';
+
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
+
 header('Content-Type: application/json');
 
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
@@ -40,7 +45,7 @@ $html = '
         <table role="presentation" width="600" cellspacing="0" cellpadding="0" border="0" style="background:#ffffff;border-radius:8px;box-shadow:0 4px 12px rgba(0,0,0,0.1);overflow:hidden;">
           <tr>
             <td style="background:#a60000;color:#ffffff;padding:20px 30px;text-align:center;">
-              <h1 style="margin:0;font-size:22px;font-weight:700;">MJRS Associates — Website Inquiry</h1>
+              <h1 style="margin:0;font-size:22px;font-weight:700;">MJRS Associates - Website Inquiry</h1>
             </td>
           </tr>
           <tr>
@@ -82,44 +87,40 @@ $html = '
 </html>
 ';
 
+// Send admin email using PHPMailer
+try {
+  $mail = new PHPMailer(true);
+  $mail->isSMTP();
+  $mail->Host = 'smtp.gmail.com';
+  $mail->SMTPAuth = true;
+  $mail->Username = 'ask.querytel@gmail.com'; // your gmail
+  $mail->Password = 'twsijwpnjdnrnemp';     // app password
+  $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
+  $mail->Port = 587;
 
-// Resend configuration
-$apiKey = 're_i1nyGiXQ_Hscy7xjAjofGxZWLSgmpxBm6'; // your Resend API key
-$fromEmail = 'onboarding@resend.dev';
-$toEmail = 'owais.hassan@querytel.com'; // temp recipient
+  $mail->setFrom('ask.querytel@gmail.com', 'MJRS Associates');
+  $mail->addAddress('rimi.sandhu05@gmail.com', 'MJRS Admin'); // admin email
+  $mail->addReplyTo($email, $name);
+  $mail->isHTML(true);
+  $mail->Subject = "Website Inquiry — {$subject}";
+  $mail->Body = $html;
 
-$payload = json_encode([
-  'from' => "MJRS Associates <{$fromEmail}>",
-  'to' => [$toEmail],
-  'subject' => "Website Inquiry — {$subject}",
-  'html' => $html,
-  'reply_to' => $email
-]);
+  $mail->send();
 
-$ch = curl_init('https://api.resend.com/emails');
-curl_setopt_array($ch, [
-  CURLOPT_RETURNTRANSFER => true,
-  CURLOPT_HTTPHEADER => [
-    "Authorization: Bearer {$apiKey}",
-    "Content-Type: application/json"
-  ],
-  CURLOPT_POST => true,
-  CURLOPT_POSTFIELDS => $payload
-]);
-$response = curl_exec($ch);
-$httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
-$error = curl_error($ch);
-curl_close($ch);
+  // Send confirmation to user
+  $mail->clearAddresses();
+  $mail->addAddress($email, $name);
+  $mail->Subject = 'We received your message';
+  $mail->Body = "
+    <p>Hi {$name},</p>
+    <p>Thanks for contacting MJRS Associates. We've received your message and will get back to you shortly.</p>
+    <p>— MJRS Associates</p>
+  ";
 
-if ($error) {
-  http_response_code(500);
-  echo json_encode(['error' => 'cURL error: ' . $error]);
-  exit;
-}
+  $mail->send();
 
-if ($httpCode >= 200 && $httpCode < 300) {
   echo json_encode(['success' => 'Your message has been sent successfully.']);
-} else {
-  http_response_code($httpCode);
-  echo json_encode(['error' => 'Resend API error: ' . $response]);
+} catch (Exception $e) {
+  http_response_code(500);
+  echo json_encode(['error' => 'Mailer Error: ' . $mail->ErrorInfo]);
 }

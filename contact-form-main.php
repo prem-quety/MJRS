@@ -1,15 +1,21 @@
+<!-- contact-form-main.php -->
 <?php
+require __DIR__ . '/vendor/autoload.php';
+
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
+
 header('Content-Type: application/json');
 
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
-    http_response_code(405);
-    echo json_encode(['error' => 'Invalid request method']);
-    exit;
+  http_response_code(405);
+  echo json_encode(['error' => 'Invalid request method']);
+  exit;
 }
 
 function clean($v)
 {
-    return htmlspecialchars(trim($v), ENT_QUOTES, 'UTF-8');
+  return htmlspecialchars(trim($v), ENT_QUOTES, 'UTF-8');
 }
 
 $name = clean($_POST['name'] ?? '');
@@ -18,9 +24,9 @@ $subject = clean($_POST['subject'] ?? 'General Inquiry');
 $message = clean($_POST['message'] ?? '');
 
 if (!$name || !$email || !$message) {
-    http_response_code(400);
-    echo json_encode(['error' => 'Please fill out all required fields.']);
-    exit;
+  http_response_code(400);
+  echo json_encode(['error' => 'Please fill out all required fields.']);
+  exit;
 }
 
 // Build styled HTML email
@@ -39,7 +45,7 @@ $html = '
         <table role="presentation" width="600" cellspacing="0" cellpadding="0" border="0" style="background:#ffffff;border-radius:10px;box-shadow:0 4px 15px rgba(0,0,0,0.08);overflow:hidden;">
           <tr>
             <td style="background:#a60000;color:#ffffff;padding:22px 30px;text-align:center;">
-              <h1 style="margin:0;font-size:22px;font-weight:700;">MJRS Associates — Client Inquiry</h1>
+              <h1 style="margin:0;font-size:22px;font-weight:700;">MJRS Associates - Client Inquiry</h1>
             </td>
           </tr>
           <tr>
@@ -67,44 +73,40 @@ $html = '
 </html>
 ';
 
-// Resend setup
-$apiKey = 're_i1nyGiXQ_Hscy7xjAjofGxZWLSgmpxBm6';
-$fromEmail = 'onboarding@resend.dev';
-$toEmail = 'prem.kumar@querytel.com';
+// Send admin email using PHPMailer
+try {
+  $mail = new PHPMailer(true);
+  $mail->isSMTP();
+  $mail->Host = 'smtp.gmail.com';
+  $mail->SMTPAuth = true;
+  $mail->Username = 'ask.querytel@gmail.com'; // your gmail
+  $mail->Password = 'twsijwpnjdnrnemp';     // app password
+  $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
+  $mail->Port = 587;
 
-$payload = json_encode([
-    'from' => "MJRS Associates <{$fromEmail}>",
-    'to' => [$toEmail],
-    'subject' => "MJRS Inquiry — {$subject}",
-    'html' => $html,
-    'reply_to' => $email
-]);
+  $mail->setFrom('ask.querytel@gmail.com', 'MJRS Associates');
+  $mail->addAddress('rimi.sandhu05@gmail.com', 'MJRS Admin'); // admin email
+  $mail->addReplyTo($email, $name);
+  $mail->isHTML(true);
+  $mail->Subject = "MJRS Inquiry — {$subject}";
+  $mail->Body = $html;
 
-$ch = curl_init('https://api.resend.com/emails');
-curl_setopt_array($ch, [
-    CURLOPT_RETURNTRANSFER => true,
-    CURLOPT_HTTPHEADER => [
-        "Authorization: Bearer {$apiKey}",
-        "Content-Type: application/json"
-    ],
-    CURLOPT_POST => true,
-    CURLOPT_POSTFIELDS => $payload
-]);
+  $mail->send();
 
-$response = curl_exec($ch);
-$httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
-$error = curl_error($ch);
-curl_close($ch);
+  // Send confirmation to user
+  $mail->clearAddresses();
+  $mail->addAddress($email, $name);
+  $mail->Subject = 'We received your message';
+  $mail->Body = "
+    <p>Hi {$name},</p>
+    <p>Thanks for contacting MJRS Associates. We've received your message and will get back to you shortly.</p>
+    <p>- MJRS Associates</p>
+  ";
 
-if ($error) {
-    http_response_code(500);
-    echo json_encode(['error' => 'cURL error: ' . $error]);
-    exit;
-}
+  $mail->send();
 
-if ($httpCode >= 200 && $httpCode < 300) {
-    echo json_encode(['success' => 'Your inquiry has been sent successfully.']);
-} else {
-    http_response_code($httpCode);
-    echo json_encode(['error' => 'Resend API error: ' . $response]);
+  echo json_encode(['success' => 'Your inquiry has been sent successfully.']);
+} catch (Exception $e) {
+  http_response_code(500);
+  echo json_encode(['error' => 'Mailer Error: ' . $mail->ErrorInfo]);
 }
