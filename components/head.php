@@ -35,7 +35,7 @@
     <meta name="twitter:image" content="<?= $page_image ?? 'https://mjrsassociates.ca/assets/images/og-banner.jpg' ?>">
 
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="/assets/images/favicon.png" />
+    <link rel="icon" type="image/png" href="./assets/images/favicon.png" />
 
     <!-- Fonts -->
     <link
@@ -132,13 +132,13 @@
         <?php if (is_array($page_jsonld)): ?>
             <?php foreach ($page_jsonld as $json): ?>
                 <script type="application/ld+json">
-                                                                                                                                                                                                                                                        <?= is_array($json) ? json_encode($json, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT) : $json ?>
-                                                                                                                                                                                                                                                    </script>
+                                                                                                                                                                                                                                                                    <?= is_array($json) ? json_encode($json, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT) : $json ?>
+                                                                                                                                                                                                                                                                </script>
             <?php endforeach; ?>
         <?php else: ?>
             <script type="application/ld+json">
-                                                                                                                                                                        <?= is_array($page_jsonld) ? json_encode($page_jsonld, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT) : $page_jsonld ?>
-                                                                                                                                                                    </script>
+                                                                                                                                                                                <?= is_array($page_jsonld) ? json_encode($page_jsonld, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT) : $page_jsonld ?>
+                                                                                                                                                                            </script>
         <?php endif; ?>
     <?php endif; ?>
 </head>
